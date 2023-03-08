@@ -101,9 +101,9 @@ header{
     transition: .4s;
     cursor: pointer;
 }
-/* .logbn:hover{
+.logbn:hover{
     transform: scale(1.1);
-} */
+}
 .security{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -367,3 +367,46 @@ h2,h3{
 .copy1{
     padding: 20px;
 }
+
+.map{
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+.contact{
+    position: absolute;
+    top:2200px;
+    left:700px
+}
+.contact li{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    
+
+}
+.contact ul li a{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    transition: .3s;
+    font-weight: 100;
+}
+
+.contact ul li a:hover{
+    color: burlywood;
+    transform: scale(1.1);
+}
+
+.contact img{
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
