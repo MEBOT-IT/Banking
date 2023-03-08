@@ -1,6 +1,7 @@
-body{
-  margin:0%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+
+*{
+  margin: 0;
+  padding: 0;
 }
 .nav{
   width: 100%;
@@ -163,7 +164,8 @@ img{
 ul{
   list-style:circle;
 }
-.footer{
+
+footer{
   background-color: #003e7e;
   margin-top: 20px;
   width: 100%;
@@ -259,7 +261,7 @@ ul{
 .contact{
   position: absolute;
   top:2690px;
-  left:700px
+  left:700px;
 }
 .contact li{
   list-style: none;
@@ -291,30 +293,3 @@ ul{
   border-radius: 50%;
 
 }
-
-#myBtn {
-position: fixed;
-bottom: 80px;
-left:1350px;
-background-color: #555555;
-color:white;
-cursor: pointer;
-border-radius:50%;
-width: 55px;
-height: 55px;
-font-size:xx-large;
-transition: .4s;
-
-}
-#myBtn:hover {
-background-color: #555;
-transform: scale(1.1);
-}
-
-#myBtn img{
-  border-radius: 50%;
-  color: white;
-  background-color: black;
-}
-
-
