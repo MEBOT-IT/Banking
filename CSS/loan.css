@@ -140,16 +140,21 @@ img{
 .cover2{
   display: flex;
   background-color: #003e7e;
-  padding-top: 10px;
+  padding-top: 20px;
   justify-content: space-between;
 }
 .box{
-  background-color: #003e7e;
+  background-color : white;
+  color: #003e7e;
   width: 300px;
-  height: 500px;
+  height: 450px;
   margin: 40px;
   transition: 1s;
+  padding-bottom: 10px;
   
+}
+.type{
+    background-color: white;
 }
 .box:hover{
   box-shadow: 30px 30px 10px black;
