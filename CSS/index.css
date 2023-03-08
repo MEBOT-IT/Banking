@@ -13,7 +13,7 @@ body{
 
 .nav .logo{
     margin-top: 14px;
-    margin-left: 65px;
+    margin-left: 35px;
     height: 120px;
     width:150px;
     border: white;
@@ -41,6 +41,7 @@ body{
     border-bottom-left-radius: 10px;
 }
 .nav .item #button{
+    margin-right: 20px;
     margin-top: 5px;
     height: 35px;
     border: 2px solid black;
@@ -51,7 +52,7 @@ body{
 }
 
 .nav .item #button:hover{
-        transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .nav .item ul li a{
@@ -61,7 +62,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aliceblue;
     font-size: 20px;
-    padding:  10px 20px;
+    padding:  5px 5px;
     border-radius: 50px;
     transition: 0.2s;
     margin: 0 15px;
@@ -179,9 +180,46 @@ h2,h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
 }
-.anime{
+.products{
     clear: both;
-    margin-top: 390px;
+}
+.products .pro-header{
+    padding: 30px;
+    margin-left: 4%;
+    color: #003e7e;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 200px;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.products .product .pro1 .pro-img{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+}
+.products .product .pro1 .pro-con{
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.products .product .pro1{
+    border: 5px rgb(27, 25, 25);
+    height: 180px;
+    width: 180px;
+    text-align: center;
+}
+.products .product .pro1 .pro-img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.products .product .pro1 .pro-con:hover{
+    color: #003e7e;
+}
+.anime{
+    margin-top: 40px;
     margin-left:15px ;
     height: 600px;
     width: 98%;
@@ -191,9 +229,12 @@ h2,h3{
     animation: slider 20s infinite linear;
 }
 @keyframes slider{
-    25%{ background-image :url("/Images/Bank\ Image1.jpg");}
+    20%{ background-image :url("/Images/Bank\ image1.jpg");}
     50%{ background-image: url("/Images/Bank\ Image2.jpg");}
-    75%{ background-image: url("/Images/Bank\ Image3.jfif");}
+    75%{ background-image: url("/Images/Bank\ Image3.jpg");}
+    100%{ background-image: url("/Images/Bank\ image\ 4.jpg");}
+    30%{ background-image: url("/Images/Bank\ image\ 5.jpg");}
+    40%{background-image: url("/Images/Bank\ image\ 6.jpg");}
     
 }
 .services{
@@ -211,12 +252,12 @@ h2,h3{
     justify-content: space-evenly;
 }
 .stitle{
-    font-size: 24px;
+    font-size: 21px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
 .scon, .scon1{
-    font-size: 20px;
+    font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .box1{
