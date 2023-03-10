@@ -32,7 +32,7 @@ body{
         top: 40px;
 }
 .nav .item #search{
-    margin-top: 5px;
+    /* margin-top: 5px; */
     padding: 5px;
     height: 35px;
     font-weight: bold;
@@ -42,8 +42,9 @@ body{
 }
 .nav .item #button{
     margin-right: 20px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     height: 35px;
+    width: 100px;
     border: 2px solid black;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -63,7 +64,7 @@ body{
     color: aliceblue;
     font-size: 20px;
     padding:  5px 5px;
-    border-radius: 50px;
+    border-radius: 10px;
     transition: 0.2s;
     margin: 0 15px;
     text-decoration: none;
@@ -344,6 +345,7 @@ h2,h3{
 }
 .terms ul li a{
     display: flex;
+    width: 200px;
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
@@ -380,10 +382,14 @@ h2,h3{
     
 }
 
+.contactinfo{
+    position: relative;
+}
+
 .contact{
     position: absolute;
-    top:2690px;
-    left:700px;
+    top:-240px;
+    left: 700px;
 }
 .contact li{
     list-style: none;
