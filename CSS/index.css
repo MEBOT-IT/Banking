@@ -1,6 +1,7 @@
 body{
     margin:0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
 }
 .nav{
     width: 100%;
@@ -60,7 +61,7 @@ body{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     font-size: 20px;
     padding:  5px 5px;
@@ -116,28 +117,30 @@ header{
     height: 120px;
     width: 200px;
     border:3px solid #003e7e;
+    border-radius: 5px;
     text-align: justify;
     padding: 10px;
     margin-bottom:5px;
+    transition: .4s;
 }
 
 .list:hover{
-    transform: scale(1.09);
+    transform: scale(1.1);
 }
 .head{
     text-align: center;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: slateblue;
     font-style: italic;
 }
 .head1{
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .msg1{
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #003e7e;
     text-align: center;
 }
@@ -165,20 +168,20 @@ h2,h3{
 }
 .title{
     font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #003e7e;
     margin-top: 20px;
 }
 .title1{
     font-size: 19px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     color: blue;
     margin-top: 10px;
 }
 .content{
     font-size: 17px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
 }
 .products{
@@ -189,7 +192,7 @@ h2,h3{
     margin-left: 4%;
     color: #003e7e;
     font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 200px;
 }
 .product{
@@ -206,7 +209,7 @@ h2,h3{
 }
 .products .product .pro1 .pro-con{
     font-size:larger;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .products .product .pro1{
     border: 5px rgb(27, 25, 25);
@@ -256,12 +259,12 @@ h2,h3{
 }
 .stitle{
     font-size: 21px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
 .scon, .scon1{
     font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .box1{
     margin-left: 10px;
@@ -319,7 +322,7 @@ h2,h3{
 
 .socialmedia h3{
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 20px;
     display: flex;
     margin-top: 10px;
@@ -403,7 +406,7 @@ h2,h3{
     list-style: none;
     text-decoration: none;
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     transition: .3s;
     font-weight: 100;
@@ -447,5 +450,17 @@ h2,h3{
     background-color: black;
 }
 
-
+.timecontainer{
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 15px;
+    padding: 3px;
+    font-size:small;
+    display: flex;
+    float: right;
+    margin-left: 1240px;
+}
 

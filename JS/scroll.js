@@ -20,3 +20,20 @@ function topFunction() {
     window.scrollTo(0, currentScroll - (currentScroll / 30));
   }
 }
+
+//TIME SHOWER:
+
+function digi(){
+  var date=new Date();
+  var hrs=date.getHours();
+  var min=date.getMinutes();
+  var sec=date.getSeconds();
+  
+  
+
+  document.getElementById("hours").innerHTML=hrs;
+  document.getElementById("minutes").innerHTML=min;
+  document.getElementById("seconds").innerHTML=sec;
+
+}
+  setInterval(digi)
