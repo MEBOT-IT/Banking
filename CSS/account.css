@@ -1,0 +1,83 @@
+body{
+    margin:0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #003e7e;
+    
+}
+.nav .logo{
+    margin-top: 14px;
+    position: absolute;
+    left: 0;
+    height: 120px;
+    width:150px;
+
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.nav .item{
+        position:absolute;
+        top: 40px;
+        left: 20%;
+    }
+
+.nav .item ul li a{
+    display: flex;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    padding:  5px 5px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.nav .item ul li a:hover{
+    color: black;
+    background: white;
+    border-radius: 20%;
+}
+.submenu1 {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.submenu2 {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.submenu3{
+
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.submenu4 {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.item li:nth-child(1):hover .submenu1{
+    visibility: visible;
+    background-color:#003e7e;
+}
+.item li:nth-child(2):hover .submenu2{
+    visibility: visible;
+    background-color:#003e7e;
+}
+.item li:nth-child(3):hover .submenu3{
+    visibility: visible;
+    background-color:#003e7e;
+}
+.item li:nth-child(4):hover .submenu4{
+    visibility: visible;
+    background-color:#003e7e;
+}
