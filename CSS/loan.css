@@ -111,48 +111,49 @@ header{
 
 }
 .container img:hover{
-  width: 200px;
+  width: 220px;
   height: 200;
   border-radius: 30px;
   border-color: black;
   background-color: white;
 }
-.cover1{
-  width: 100%;
-  height: 400px;
-  gap:10px;
-  align-items: center;
-  margin-top: 40px;
-  display:flex;
-  justify-content: space-between;
-  background-color: #003e7e;
-  padding-top: 30px;
+  .cover1 .box img{
+    width: 300px;
+    height: 300px;
+    background-color: #003e7e;
+    
 }
-img{
+.cover2 .box img{
   width: 300px;
-  height: 200px;
-  transition: 2s;
-  border: 4px;
+  height: 300px;
+  background-color: #003e7e;
+  
 }
+.box{
+    width: 300px;
+    height: 500px;
+    transition: 1s;
+    background-color : white;
+   color: #003e7e;
+  
+}
+
 .text{
   color: #003e7e;
   text-align: center;
+}
+.cover1{
+  display: flex;
+  background-color: #003e7e;
+  padding-top: 20px;
+  justify-content: space-evenly;
 }
 .cover2{
   display: flex;
   background-color: #003e7e;
   padding-top: 20px;
-  justify-content: space-between;
-}
-.box{
-  background-color : white;
-  color: #003e7e;
-  width: 300px;
-  height: 450px;
-  margin: 40px;
-  transition: 1s;
+  justify-content: space-evenly;
   padding-bottom: 10px;
-  
 }
 .type{
     background-color: white;
