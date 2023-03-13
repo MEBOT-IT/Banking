@@ -1,0 +1,222 @@
+body{
+    margin:0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav{
+    width: 100%;
+    height: 150px;
+    background-color:  #003e7e;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+.nav .logo{
+    margin-top: 14px;
+    margin-left: 35px;
+    height: 120px;
+    width:150px;
+    border: white;
+}
+.nav ul {
+    list-style: none;
+    display: flex;   
+}
+.nav li{
+    list-style-type: none;
+    display: flex;
+}
+.nav .item{
+    position:absolute;
+    right: 0;
+    top: 40px;
+    display: flex;
+    margin-right: 50px;
+}
+.nav .item ul li a{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 20px;
+    padding:  5px 5px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.nav .item ul li a:hover{
+    color: cornflowerblue;
+    background: white;
+}
+header{
+    margin-bottom: 10px;
+}
+.nav .item .btn{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn .logbn{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+.logbn:hover{
+    transform: scale(1.1);
+}
+.parallax {
+    /* The image used */
+    background-image: url("/images/Contact+Us.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#text{
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.crown{
+    margin: 0%;
+    background-color:#0a243d9d;
+    padding: 50px;
+}
+.crown-name{
+    color:white;
+    font-size: 30px;
+}
+.sp1{
+    color: red;
+}
+form label{
+    font-size: 22px;
+}
+.txt{
+    height: 25px;
+    width: 250px;
+}
+.grid1{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 60px;
+    margin-left: 50px;
+    align-items: center;
+}
+.grid-head{
+    color:#003e7e;
+}
+.ptag{
+    font-size: 23px;
+}
+.link1{
+    text-decoration: none;
+}
+#sub{
+    width: 150px;
+    height: 40px;
+    background-color:#003e7e;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+}
+marquee{
+    color: red;
+    font-size: 18px;
+}
+.foot{
+    padding-top: 20px;
+    background-color: #003e7e;
+    margin-bottom: 0;
+    height: 450px;
+    text-align: center;
+}
+.contact{
+    align-items: center;
+    text-align: center;
+}
+.contact ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    gap: 150px; 
+    transition: 0.3s ease;
+    margin-left: 100px;
+}
+.contact ul li a{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    transition: .3s;
+    font-weight: 100;
+}
+.link1{
+    text-decoration: none;
+}
+.offer-head, .offer-details, .foot-right{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.offer-details{
+    font-style: italic;
+}
+.foot-mid .social-links{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.social-links .soc-link{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.social-links ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    gap: 50px; 
+    transition: 0.3s ease;
+}
+.social-links ul li:hover{
+    color: burlywood;
+    transform: scale(1.1);
+}
+.social-links ul li a p:hover{
+    color: burlywood;
+    transform: scale(1.1);
+}
+.social-links p{
+    color: antiquewhite;
+    margin-left: 20px;
+}
+.copyright {
+    height: 50px;
+    padding: 1px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    background-color: #00244b;;
+}
+.copy{
+    color: white;
+}
+.copy1{
+    padding: 20px;
+}
