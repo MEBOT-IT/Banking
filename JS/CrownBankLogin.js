@@ -18,25 +18,29 @@ function log(){
 	 
 //for closing the popup when pressed anywhere else but the vital sections.
 
-var hidepopUp=document.getElementById("popup-container");
+// var hidepopUp=document.getElementById("popup-container");
 
-	document.onclick=function(div){
-			if(div.target.id !== "popup-container" && 
-			   div.target.id !== "button"    	   && 
-			   div.target.id !== "signUp"    	   && 
-			   div.target.id !== "signIn"    	   &&
-			   div.target.id !== "login"     	   &&
-			   div.target.id !== "register"  	   &&
-			   div.target.id !== "social"    	   &&
-			   div.target.id !== "name"            &&
-			   div.target.id !== "email"     	   &&
-			   div.target.id !== "pass"      	   &&
-			   div.target.id !== "e-mail"    	   &&
-			   div.target.id !== "password"        &&
-			   div.target.id !== "forget-link")
-			   {
-						hidepopUp.style.display="none";
-						document.querySelector(".content").style.opacity="1";
-						document.querySelector(".content").style.zIndex="0";
-				}
-		}
+// 	document.onclick=function(div){
+// 			if(div.target.id !== "popup-container" && 
+// 			   div.target.id !== "button"    	   && 
+// 			   div.target.id !== "signUp"    	   && 
+// 			   div.target.id !== "signIn"    	   &&
+// 			   div.target.id !== "login"     	   &&
+// 			   div.target.id !== "register"  	   &&
+// 			   div.target.id !== "social"    	   &&
+// 			   div.target.id !== "name"            &&
+// 			   div.target.id !== "email"     	   &&
+// 			   div.target.id !== "pass"      	   &&
+// 			   div.target.id !== "username"    	   &&
+// 			   div.target.id !== "password"        &&
+// 			   div.target.id !== "forget-link")
+// 			   {
+// 						hidepopUp.style.display="none";
+// 						document.querySelector(".content").style.opacity="1";
+// 						document.querySelector(".content").style.zIndex="0";
+// 				}
+// 		}
+
+
+
+        

@@ -19,7 +19,7 @@
                         <input type="search" id="search" placeholder="Search here...">
                         <button type="submit" id="button"><img src="../Images/icons8-search-50.png" alt="" style="padding-top: 2px;width: 20px;"></button>
                         <li>
-                            <a href=""  >Accounts</a>
+                            <a href="" >Accounts</a>
                             
                         </li>
                         <li>
@@ -54,7 +54,7 @@
                                         <!-- SignUp Form -->
 
                                         <div class="form-container sign-up-container">
-                                            <form action="#" class="form-signUp" method="get">
+                                            <form action="#" class="form-signUp" method="POST">
                                                 <h1>Sign Up for NetBanking</h1>
                                                 
                                                 <input type="text" placeholder="Name" id = "name" required>
@@ -67,12 +67,12 @@
                                         <!-- SignIn Form -->
 
                                         <div class="form-container sign-in-container">
-                                            <form action="" class="form-signin" method="POST">
+                                            <form action="index.html" class="form-signin" method="POST">
                                                 <h1>LOGIN</h1>
-                                                <input type="text" placeholder="Email" id ="txtname" required>
-                                                <input type="password" placeholder="Password" id="txtpass" required>
+                                                <input type="username" placeholder="User Name" id ="username" required>
+                                                <input type="password" placeholder="Password" id="password" required>
                                                 <a href="#" id="forget-link" style="color: black;">Forgot your password?</a>
-                                                <button type="submit" id="login" onclick="det()">Sign In</button>
+                                                <button type="logyn" id="login" value="login" onclick="validate()">Sign In</button>
                                             </form>
                                         </div>
 
@@ -89,7 +89,7 @@
 
                                                 <div class="overlay-panel overlay-right">
                                                     <h1>Hello!</h1>
-                                                    <p>Enter your details and start yourjourney</p>
+                                                    <p>Enter your details and start your journey</p>
                                                     <button class="ghost" id="signUp">Sign Up</button>
                                                 </div>
 
@@ -101,7 +101,7 @@
 
 
                                 <!-- Necessary JavaScript File -->
-                                
+                                <script src="..//JS/LogValidate.js"></script>
                                                             
                         </li>
                     </ul>
