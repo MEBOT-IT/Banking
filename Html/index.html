@@ -57,7 +57,8 @@
                                                 <input type="text" placeholder="Name" id = "name" required>
                                                 <input type="email" placeholder="Email" id="email" required>
                                                 <input type="password" placeholder="Password" id="pass" required>
-                                                <button type="submit" id="register">Sign Up</button>
+                                                <input type="checkbox" name="terms" id="" value="Terms&Conditions"><span> I Accept Terms&Conditions</span>
+                                                <button type="submit" id="register" style="cursor: pointer;">Sign Up</button>
                                             </form>
                                         </div>
 
@@ -69,7 +70,7 @@
                                                 <input type="username" placeholder="User Name" id ="username" required>
                                                 <input type="password" placeholder="Password" id="password" required>
                                                 <a href="#" id="forget-link" style="color: black;">Forgot your password?</a>
-                                                <button type="logyn" id="login" value="login" onclick="validate()">Sign In</button>
+                                                <button type="logyn" id="login" value="login" onclick="validate()" style="cursor: pointer;">Sign In</button>
                                             </form>
                                         </div>
 
@@ -81,13 +82,13 @@
                                                 <div class="overlay-panel overlay-left">
                                                     <h1>Welcome Back!</h1>
                                                     <p>To keep connected please enter your log in details.</p>
-                                                    <button class="ghost" id="signIn">Sign In</button>
+                                                    <button class="ghost" id="signIn" style="cursor: pointer;">Sign In</button>
                                                 </div>
 
                                                 <div class="overlay-panel overlay-right">
                                                     <h1>Hello!</h1>
                                                     <p>Enter your details and start your journey</p>
-                                                    <button class="ghost" id="signUp">Sign Up</button>
+                                                    <button class="ghost" id="signUp" style="cursor: pointer;">Sign Up</button>
                                                 </div>
 
                                             </div>
@@ -119,6 +120,7 @@
             </div>
             
         </header>
+        <marquee behavior="" direction="left" style="color: red;padding: 5px;font-family: Arial, Helvetica, sans-serif;font-weight: bold;">CrownBank never asks for your Card/PIN/OTP/CVV details on phone, message or email. Please do not click on links received on your email or mobile asking your Bank/Card details.&nbsp;&nbsp;|&nbsp;&nbsp;Your Money is safe with Us</marquee>
         <div class="image">
             <img src="/Images/log.jpg" alt="login" class="logimg">
             <div class="btn">
@@ -132,19 +134,19 @@
         </div>
         <div class="security">
             <div class="list">
-                <p class="head">&#128512ALWAYS</p>
+                <p class="head">ALWAYS</p>
                 <p class="head1">Keep your computer free of malware</p>
             </div>
             <div class="list">
-                <p class="head">&#128512ALWAYS</p>
+                <p class="head">ALWAYS</p>
                 <p class="head1">Change your passwords periodically</p>
             </div>
             <div class="list">
-                <p class="head">&#128545NEVER</p>
+                <p class="head">NEVER</p>
                 <p class="head1">Respond to any communication seeking your passwords</p>
             </div>
             <div class="list">
-                <p class="head">&#128545NEVER</p>
+                <p class="head">NEVER</p>
                 <p class="head1">Reveal your passwords or card details to anyone</p>
             </div>
         </div>
@@ -245,8 +247,8 @@
                 <div class="search">
                     <h2 style="color: white;font-family: Arial, Helvetica, sans-serif;"> Sign up for exclusive offers <br> and inspiration:</h2><br>
                     <form action="mailform">
-                        <input type="text" name="email_add" id="" placeholder="Enter Email Address">
-                        <input type="submit" value="SUBMIT" id="submit">
+                        <input type="email" name="email_add" id="mailform" placeholder="Enter Email Address">
+                        <input type="submit" value="SUBMIT" id="submit" onclick="mailcaptured()">
                     </form>
                 </div>
                 <div class="socialcontainer">
