@@ -3,11 +3,13 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
     if(username == "aravind" && password == "aravind02")
     {
-        alert("login successfull");
+        window.location.assign("terms&conditions.html");
+        alert("Login successfull");
         return false;
     }
     else
     {
-        alert("login failed")
+        alert("Invalid Login");
+        return;
     }
 }
