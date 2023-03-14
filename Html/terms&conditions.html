@@ -2,21 +2,195 @@
 <html>
   <head>
     <title>Crown Terms and Conditions</title>
+    <link rel="stylesheet" href="../CSS/index.css">
   </head>
   <body style="background-color: rgb(249, 232, 211);font-family: Arial, Helvetica, sans-serif;">
-    <h1 style="background-color: #003e7e; color: white;padding: 10px;text-align: center;">Terms and Conditions</h1>
-    Our Terms and Conditions were last updated on Mar 4 2023.
-    <p>Please read these terms and conditions carefully before using our services. By using our services, you agree to be bound by these terms and conditions:</p>
-    <h2>1. Account Opening and Use</h2>
-    <p>By opening an account with us, you agree to provide accurate and complete information about yourself, and to keep your account information up-to-date. You also agree to comply with our account rules and regulations, and to use your account only for lawful purposes.</p>
-    <h2>2. Transactions and Fees</h2>
-    <p>All transactions conducted through your account are subject to our fees and charges, which are subject to change without notice. You agree to pay all fees and charges associated with your account, including any overdraft fees, if applicable.</p>
-    <h2>3. Security</h2>
-    <p>You are responsible for keeping your account information and password confidential. You agree to notify us immediately if you suspect any unauthorized access to your account or any security breach.</p>
-    <h2>4. Liability</h2>
-    <p>We are not liable for any damages, losses or expenses arising from your use of our services or your breach of these terms and conditions. You agree to indemnify and hold us harmless from any claims or actions arising from your use of our services.</p>
-    <h2>5. Governing Law and Dispute Resolution</h2>
-    <p>These terms and conditions are governed by the laws of India. Any dispute arising from or relating to these terms and conditions shall be resolved through binding arbitration in accordance with the rules of <span style="font-weight: bold;"> Crown Bank</span>.</p>
-    <p>By using our services, you acknowledge that you have read and understood these terms and conditions, and that you agree to be bound by them.</p>
+    <div class="container">
+      <header >
+          <div class="nav">
+              <a href="index.html">
+                  <img src="/Images/logo1.png" class="logo">
+              </a>
+              <div class="item">
+                  <ul>
+                      <input type="search" id="search" placeholder="Search here...">
+                      <button type="submit" id="button"><img src="../Images/icons8-search-50.png" alt="" style="padding-top: 2px;width: 20px;"></button>
+                      <li>
+                          <a href=""  >Accounts</a>
+                          
+                      </li>
+                      <li>
+                          <a href="loan.html" >Loans</a>
+                          
+                      </li>
+                      <li>
+                          <a href="/Html/card.html">Cards</a> 
+                      </li>
+                      <li>
+                          <a href="">Insurance</a> 
+                      </li>
+                      <li>
+                          <a href="/Html/about.html">About Us</a>
+                          
+                      </li>
+                      <li>
+                          <a href="/Html/contact.html">Contact Us</a>
+                          
+                      </li>
+                      <li>
+                  
+                              <button id="button" onclick="log()" style="border-radius:10px;font-weight: bold;">LOGIN</button>
+                      
+                              <!-- The Overlay PopUp for SignUp and LogIn -->
+                                  
+                                  <div class="popup-container" id = "popup-container">
+                                      
+                                      <!-- SignUp Form -->
+
+                                      <div class="form-container sign-up-container">
+                                          <form action="#" class="form-signUp" method="POST">
+                                              <h1>Sign Up for NetBanking</h1>
+                                              
+                                              <input type="text" placeholder="Name" id = "name" required>
+                                              <input type="email" placeholder="Email" id="email" required>
+                                              <input type="password" placeholder="Password" id="pass" required>
+                                              <input type="checkbox" name="terms" id="" value="Terms&Conditions"><span> I Accept Terms&Conditions</span>
+                                              <button type="submit" id="register" style="cursor: pointer;">Sign Up</button>
+                                          </form>
+                                      </div>
+
+                                      <!-- SignIn Form -->
+
+                                      <div class="form-container sign-in-container">
+                                          <form action="index.html" class="form-signin" method="POST">
+                                              <h1>LOGIN</h1>
+                                              <input type="username" placeholder="User Name" id ="username" required>
+                                              <input type="password" placeholder="Password" id="password" required>
+                                              <a href="#" id="forget-link" style="color: black;">Forgot your password?</a>
+                                              <button type="logyn" id="login" value="login" onclick="validate()" style="cursor: pointer;">Sign In</button>
+                                          </form>
+                                      </div>
+
+                                      <!-- Overlays for the Forms -->
+                                      <div class="overlay-container">
+
+                                          <div class="overlay">
+
+                                              <div class="overlay-panel overlay-left">
+                                                  <h1>Welcome Back!</h1>
+                                                  <p>To keep connected please enter your log in details.</p>
+                                                  <button class="ghost" id="signIn" style="cursor: pointer;">Sign In</button>
+                                              </div>
+
+                                              <div class="overlay-panel overlay-right">
+                                                  <h1>Hello!</h1>
+                                                  <p>Enter your details and start your journey</p>
+                                                  <button class="ghost" id="signUp" style="cursor: pointer;">Sign Up</button>
+                                              </div>
+
+                                          </div>
+
+                                      </div>
+                                  </div>
+                                  <!-- End of the PopUp div. -->
+
+
+                              <!-- Necessary JavaScript File -->
+                              <script src="..//JS/LogValidate.js"></script>
+                                                          
+                      </li>
+                  </ul>
+              </div>
+              <div class="timecontainer">
+                 TIME: <span id="hours">
+                      00
+                  </span>
+                  <span>:</span>
+                  <span id="minutes">
+                      00
+                  </span>
+                  <span>:</span>
+                  <span id="seconds">
+                      00
+                  </span>
+              </div>
+          </div>
+          
+      </header>
+            <h1 style="background-color: #003e7e; color: white;padding: 10px;text-align: center;">Terms and Conditions</h1>
+            Our Terms and Conditions were last updated on Mar 4 2023.
+            <p>Please read these terms and conditions carefully before using our services. By using our services, you agree to be bound by these terms and conditions:</p>
+            <h2>1. Account Opening and Use</h2>
+            <p>By opening an account with us, you agree to provide accurate and complete information about yourself, and to keep your account information up-to-date. You also agree to comply with our account rules and regulations, and to use your account only for lawful purposes.</p>
+            <h2>2. Transactions and Fees</h2>
+            <p>All transactions conducted through your account are subject to our fees and charges, which are subject to change without notice. You agree to pay all fees and charges associated with your account, including any overdraft fees, if applicable.</p>
+            <h2>3. Security</h2>
+            <p>You are responsible for keeping your account information and password confidential. You agree to notify us immediately if you suspect any unauthorized access to your account or any security breach.</p>
+            <h2>4. Liability</h2>
+            <p>We are not liable for any damages, losses or expenses arising from your use of our services or your breach of these terms and conditions. You agree to indemnify and hold us harmless from any claims or actions arising from your use of our services.</p>
+            <h2>5. Governing Law and Dispute Resolution</h2>
+            <p>These terms and conditions are governed by the laws of India. Any dispute arising from or relating to these terms and conditions shall be resolved through binding arbitration in accordance with the rules of <span style="font-weight: bold;"> Crown Bank</span>.</p>
+            <p>By using our services, you acknowledge that you have read and understood these terms and conditions, and that you agree to be bound by them.</p>
+    <footer class="footer">
+      <div class="footcontainer">
+          <div class="search">
+              <h2 style="color: white;font-family: Arial, Helvetica, sans-serif;"> Sign up for exclusive offers <br> and inspiration:</h2><br>
+              <form action="mailform">
+                  <input type="email" name="email_add" id="mailform" placeholder="Enter Email Address">
+                  <input type="submit" value="SUBMIT" id="submit" onclick="mailcaptured()">
+              </form>
+          </div>
+          <div class="socialcontainer">
+          <div class="socialmedia">
+              <h3>Follow Us:</h3>
+              <a href="https://www.youtube.com/"><img src="/Images/youtube.png" alt="" class="icon"></a>
+              <a href="https://www.instagram.com/"><img src="/Images/instagram.png" alt="" class="icon"></a>
+              <a href="https://twitter.com/?lang=en"><img src="/Images/twitter.png" alt="" class="icon"></a> 
+              <a href="https://www.facebook.com/"><img src="/Images/facebook.png" alt="" class="icon"></a> 
+          </div>
+          </div>
+          <div class="terms">
+              <ul>
+                  <li>
+                      <a href="#">HOME</a>
+                  </li>
+                  <li>
+                      <a href="./terms&conditions.html">TERMS & CONDITIONS</a>
+                  </li>
+                  <li>
+                      <a href="tel:9944758124">CUSTOMER CARE</a>
+                  </li>
+                  <li>
+                      <a href="">DISCLAIMER</a>
+                  </li>
+                  <li>
+                      <a href="">PRIVACY POLICY</a>
+                  </li>  
+              </ul>
+          </div>
+          <div class="contactinfo">
+              <div class="contact">
+                  <ul>
+                      <li><img src="..//Images/icons8-phone-50.png" alt=""><a href="tel:9944758124">+919944758124</a></li>
+                      <li><img src="..//Images/mail icon.png" alt=""><a href="mailto:crownbankingofficial@gmail.com">crownbankingofficial@gmail.com</a></li>
+                      <li style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><img src="../Images/icon8-location-50.png" alt=""><a href=""></a>No #833, E.V.R. Periyar High Road,<br> Arumbakkam,<br> Chennai – 600 106, Tamilnadu</li>
+                  </ul>
+              </div>
+          </div>
+          
+          <div class="map">
+              <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.400445043835!2d80.21003261461313!3d13.073788590788892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266a2b44ea549%3A0x24732a5af8f16afd!2sDwaraka%20Doss%20Goverdhan%20Doss%20Vaishnav%20College!5e0!3m2!1sen!2sin!4v1678258248163!5m2!1sen!2sin" width="96%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+          </div>
+          
+          </div>
+      
+          <script src="digti clock.js">
+      
+          </script>
+          <div class="copyright">
+              <p class="copy">CopyRights &copy 2023 CrownBank <span class="copy1">|</span> <span>Right Bank Right Now</span> <span class="copy1">|</span>  All Rights Reserved </p>
+          </div>
+      </div>
+     </footer>
   </body>
 </html>
