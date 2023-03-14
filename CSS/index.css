@@ -339,7 +339,7 @@ h2,h3{
 /* TERMS */
 
 .terms{
-    margin-left: 450px;
+    margin-left: 350px;
     margin-top: 0px;
     margin-bottom: 20px;
 }
@@ -392,7 +392,7 @@ h2,h3{
 .contact{
     position: absolute;
     top:-240px;
-    left: 700px;
+    left: 570px;
 }
 .contact li{
     list-style: none;
@@ -428,7 +428,7 @@ h2,h3{
 #myBtn {
   position: fixed;
   bottom: 80px;
-  left:1350px;
+  left:1250px;
   background-color: #555555;
   color:white;
   cursor: pointer;
@@ -461,7 +461,7 @@ h2,h3{
     font-size:small;
     display: flex;
     float: right;
-    margin-left: 1240px;
+    margin-left: 1050px;
 }
 
 
