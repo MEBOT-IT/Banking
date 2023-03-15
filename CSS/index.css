@@ -425,31 +425,31 @@ h2,h3{
 
 }
 
-#myBtn {
-  position: fixed;
-  bottom: 80px;
-  left:1250px;
-  background-color: #555555;
-  color:white;
-  cursor: pointer;
-  border-radius:50%;
-  width: 55px;
-  height: 55px;
-  font-size:xx-large;
-  transition: .4s;
-
-}
-#myBtn:hover {
-  background-color: #555;
-  transform: scale(1.1);
-}
-
-#myBtn img{
-    border-radius: 50%;
-    color: white;
-    background-color: black;
-}
-
+#scroll-top-btn {
+    position: fixed;
+    bottom: 80px;
+    left:1350px;
+    
+    color:white;
+    cursor: pointer;
+    border-radius:50%;
+    width: 55px;
+    height: 55px;
+    font-size:xx-large;
+    transition: .4s;
+  
+  }
+  #scroll-top-btn:hover {
+    
+    transform: scale(1.1);
+  }
+  
+  #scroll-top-btn img{
+      border-radius: 50%;
+    
+      
+  }
+  
 .timecontainer{
     border: 1px solid black;
     color: white;
