@@ -96,7 +96,7 @@ header{
 }
 .navbar{
     position: relative;
-    background-image:url(../Images/1678355717544.jpg);
+    background-image:url(../Images/loanimg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -121,16 +121,16 @@ header{
   position: absolute;
   top: 200px;
   left: 15px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 5px;
   padding: 10px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(1px);
 }
 
 .box{
-  background-color : black;
+  background-color : #003e7e;
   color: white;
-  width: 300px;
+  width: 500px;
   height: 500px;
   margin: 100px;
   transition: 1s;
@@ -139,7 +139,7 @@ header{
 }
 
 .box:hover{
-  box-shadow: 30px 30px 10px black;
+  box-shadow: 30px 30px 10px #305881;
   
 }
 .box ul li{

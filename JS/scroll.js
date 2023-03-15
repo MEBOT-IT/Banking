@@ -15,7 +15,7 @@ function topFunction() {
   const currentScroll = document.documentElement.scrollTop ;
 
   // If the current position is not at the top, scroll to it
-  if (currentScroll > 0) {
+  if (currentScroll > -10) {
     window.requestAnimationFrame(topFunction);
     window.scrollTo(0, currentScroll - (currentScroll / 30));
   }

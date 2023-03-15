@@ -13,3 +13,11 @@ var password = document.getElementById("password").value;
         return;
     }
 }
+
+
+function mailcaptured(){
+    var mail = document.getElementById("mailform").value;
+
+    alert("Your Email has Registered");
+    return false;
+}
