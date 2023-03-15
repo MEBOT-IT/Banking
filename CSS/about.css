@@ -286,6 +286,9 @@ header{
     font-size: 30px;
     font-style: italic;
 }
+.procon{
+    line-height: 22px;
+}
 .promoimg{
     padding: 80px;
 }
