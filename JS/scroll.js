@@ -2,7 +2,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.documentElement.scrollTop > 1400) {
+  if (document.documentElement.scrollTop > 1500) {
     document.getElementById("myBtn").style.display = "block";
   } else {
     document.getElementById("myBtn").style.display = "none";
@@ -15,8 +15,25 @@ function topFunction() {
   const currentScroll = document.documentElement.scrollTop ;
 
   // If the current position is not at the top, scroll to it
-  if (currentScroll > 0) {
+  if (currentScroll > -10) {
     window.requestAnimationFrame(topFunction);
     window.scrollTo(0, currentScroll - (currentScroll / 30));
   }
 }
+
+//TIME SHOWER:
+
+function digi(){
+  var date=new Date();
+  var hrs=date.getHours();
+  var min=date.getMinutes();
+  var sec=date.getSeconds();
+  
+  
+
+  document.getElementById("hours").innerHTML=hrs;
+  document.getElementById("minutes").innerHTML=min;
+  document.getElementById("seconds").innerHTML=sec;
+
+}
+  setInterval(digi)
