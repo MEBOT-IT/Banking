@@ -200,6 +200,7 @@ header{
     color: white;
     font-size: 15px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .mimg{
     height: 350px;
