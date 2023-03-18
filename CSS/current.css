@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 body{
     margin:0%;
-    font-family: 'Libre Baskerville', serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .nav{
     width: 100%;
@@ -47,11 +46,11 @@ header{
 .hero-text{
     position: absolute;
     left: 14%;
-    top: 60%;
-    width: 50%;
-    font-size: 38px;
+    top: 40%;
+    width: 40%;
+    font-size: 35px;
     font-weight: 500;
-    color:#003e7e;
+    /* color: white; */
     transition: ease-in;
 }
 .content-list{
@@ -72,17 +71,9 @@ header{
 .content-list a:hover{
     transform: scale(1.1);
 }
-#opbtn{
-    padding: 10px;
-    border-radius: 25px;
-    color:white;
-    background-color: #003e7e;
-    width: 300px;
-    margin-left: 380px;
-}
 .savings{
     width: 90%;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 50px;
 }
 .stitle{
@@ -93,19 +84,21 @@ header{
 .save-content{
     font-size: 18px;
 }
-.marquee-content{
-    margin-top: 50px;
+.benefit h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 90px;
 }
-#marimg{
-    border-radius: 50%;
+.benefits{
+    display: flex;
+    justify-content: space-around;
 }
-.marcon{
-    color: #003e7e;
-    font-size: 20px;
+.ben{
+    width: 70%;
 }
 .procedure{
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 90px;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -113,13 +106,13 @@ header{
     font-size: 35px;
     color: #003e7e;
 }
-.esub{
-    font-size: 20px;
-    font-weight: bold;
-}
 .eimg img{
     border-radius: 10%;
     box-shadow: 4px 4px 2px #003e7e;
+    margin-left: 70px;
+}
+.item{
+    font-size: 20px;
 }
 .faq{
     margin-top: 40px;
@@ -130,7 +123,7 @@ header{
 .faqs{
     border: 2px solid #003e7e;
     border-radius: 15px;
-    margin-left:140px;
+    margin-left:130px;
     margin-bottom: 20px;
 }
 .question {
@@ -158,6 +151,7 @@ header{
     text-align: center;
     color: #003e7e;
     font-size: 30px;
+    margin-left: 80px;
 }
 .foot{
     padding-top: 20px;
