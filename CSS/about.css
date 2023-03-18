@@ -306,7 +306,7 @@ header{
     margin-bottom: 0;
     height: 200px;
     text-align: center;
-    margin-top: -100px;
+    margin-top: -30px;
 }
 .contact{
     width: 100%;
@@ -317,7 +317,6 @@ header{
     color:#0a75df;
     font-size: 30px;
     font-style: italic;
-    margin-top: -80px;
 }
 .text{
     text-align: center;
