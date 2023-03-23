@@ -119,6 +119,9 @@ header{
 .ben{
     width: 70%;
 }
+.item{
+    font-size: large;
+}
 .steps{
     margin-left: 90px;
     margin-top: 50px;
@@ -182,14 +185,6 @@ header{
     font-size: 30px;
     margin-left: 80px;
 }
-.foot{
-    padding-top: 20px;
-    background-color: #003e7e;
-    margin-bottom: 0;
-    height: 200px;
-    text-align: center;
-    margin-top: -20px;
-}
 .contact{
     width: 100%;
     height: 570px;
@@ -234,6 +229,14 @@ header{
 .box p{
     font-size: 18px;
     margin-top: -15px;
+}
+.foot{
+    padding-top: 20px;
+    background-color: #003e7e;
+    margin-bottom: 0;
+    height: 200px;
+    text-align: center;
+    margin-top: -20px;
 }
 .foot-right p{
     color: white;

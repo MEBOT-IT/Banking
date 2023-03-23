@@ -3,7 +3,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
     if(username == "aravind" && password == "aravind02")
     {
-        window.location.assign("terms&conditions.html");
+        window.location.assign("home1.html");
         alert("Login successfull");
         return false;
     }

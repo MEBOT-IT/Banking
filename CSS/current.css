@@ -59,7 +59,6 @@ header{
 .content-list ul{
     display: flex;
     gap: 100px;
-    /* justify-content:space-evenly; */
     list-style: none;
 }
 .content-list a{

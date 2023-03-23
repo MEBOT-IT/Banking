@@ -25,7 +25,7 @@
                         <a href="/Html/card.html">Cards</a>
                     </li>
                     <li>
-                        <a href="">Insurance</a>
+                        <a href="/Html/insurance.html">Insurance</a>
                     </li>
                     <li>
                         <a href="/Html/about.html">About Us</a>
@@ -129,15 +129,15 @@
             <form>
                 <div class="formbody">
                     <label for="name">Your name<span class="sp1">*</span></label><br><br>
-                    <input class="txt" type="text" id="name" required><br><br>
+                    <input class="txt" type="text" id="name"><br><br>
                     <input type="radio" id="r1" name="r1">
                     <label for="new customer">New Customer</label>
                     <input type="radio" id="r1" name="r1">
                     <label for="existing customer">Existing Customer</label><br><br>
                     <label for="phno">Phone<span class="sp1">*</span></label><br><br>
-                    <input class="txt" type="text" id="name" required><br><br>
+                    <input class="txt" type="text" id="name"><br><br>
                     <label for="email">Email<span class="sp1">*</span></label><br><br>
-                    <input class="txt" type="email" id="name" required><br><br>
+                    <input class="txt" type="email" id="name"><br><br>
                     <p class="ptag">Preferred method to reach you during business hours</p>
                     <input type="radio" id="r2" name="r2">
                     <label for="email">Email</label>
@@ -154,7 +154,7 @@
                     <label for="Online/Mobile Banking">Online/Mobile Banking</label><br><br>
                     <input type="checkbox" id="ch5" name="Others(Please Specific)">
                     <label for="Others(Please Specific)">Others(Please Specific)</label><br><br><br>
-                    <input id="sub" type="submit">
+                    <button type="submit" id="btn" onclick="submit();">SUBMIT</button>
                 </div>
             </form>
         </span>
@@ -238,14 +238,7 @@
             </div>
         </div>
       </footer>          
-    <script>
-        document.querySelector('form').addEventListener('submit', function()
-         {
-            //event.preventDefault(); // Prevent the form from submitting and reloading the page
-            alert('Form submitted successfully!'); // Display the alert message
-        });
-
-    </script>
+    <script src="/JS/submit.js"></script>
     <script src="/JS/CrownBankLogin.js"></script>
 </body>
 </html>

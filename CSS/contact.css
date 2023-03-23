@@ -1,6 +1,6 @@
 body{
     margin:0%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .nav{
     width: 100%;
@@ -67,21 +67,6 @@ body{
 header{
     margin-bottom: 10px;
 }
-/* .nav .item .btn{
-    margin-top: 20px;
-    margin-left: 20px;
-}
-.btn .logbn{
-    padding: 5px;
-    border-radius: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    cursor: pointer;
-    border: 2px solid black;
-    transition: 0.4s;
-}
-.logbn:hover{
-    transform: scale(1.1);
-} */
 .parallax {
     /* The image used */
     background-image: url("/images/Contact+Us.jpg");
@@ -157,6 +142,13 @@ form label{
 marquee{
     color: red;
     font-size: 18px;
+}
+#btn{
+    background-color: #00244b;
+    color: white;
+    padding: 10px;
+    margin-left: 130px;
+    width: 50%;
 }
 .foot{
     padding-top: 20px;
