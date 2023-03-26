@@ -1,6 +1,6 @@
 body{
     margin:0%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav{
     width: 100%;
@@ -62,10 +62,8 @@ body{
 }
 
 .nav .item #button:hover{
-    transform: scale(1.1);
-}
-header{
-    margin-bottom: 10px;
+    /* transform: scale(1.1); */
+    background-color: #d9e3ec;
 }
 .image img{
     width: 100%;
@@ -132,7 +130,7 @@ header{
     padding: 10px;
     width: 70%;
     margin-top:10px;
-    border-radius: 40%;
+    border-radius: 5px;
     background-color: #003e7e;
     border: 2px solid black;
 }
@@ -237,7 +235,7 @@ marquee{
 }
 .box{
     width: 280px;
-    height: 250px;
+    height: 280px;
     background-color: white;
     box-shadow: 0px 15px 25px  #003e7e;
     border-radius: 25px;

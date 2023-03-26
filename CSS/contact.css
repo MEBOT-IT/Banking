@@ -1,6 +1,6 @@
 body{
     margin:0%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav{
     width: 100%;
@@ -62,11 +62,12 @@ body{
 }
 
 .nav .item #button:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    background-color: #d9e3ec;
 }
-header{
+/* header{
     margin-bottom: 10px;
-}
+} */
 .parallax {
     /* The image used */
     background-image: url("/images/Contact+Us.jpg");
@@ -83,7 +84,7 @@ header{
     top: 70%;
     left: 28%;
     font-size: 50px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .crown{
     margin: 0%;
@@ -189,7 +190,7 @@ marquee{
 }
 .box{
     width: 280px;
-    height: 250px;
+    height: 280px;
     background-color: white;
     box-shadow: 0px 15px 25px  #003e7e;
     border-radius: 25px;

@@ -1,6 +1,6 @@
 body{
     margin:0%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     width: 100%;
@@ -76,9 +76,9 @@ button:hover{
     background-color: #ddd;
     border-radius:5px;
 }
-.imghead{
+/* .imghead{
     margin-top: 12px;
-}
+} */
 .imghead h1{
     position: absolute;
     top: 45%;

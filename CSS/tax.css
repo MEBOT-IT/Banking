@@ -1,6 +1,6 @@
 body{
     margin:0%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav{
     width: 100%;
@@ -22,9 +22,7 @@ body{
     color: white;
     margin-top: 55px;
 }
-header{
-    margin-bottom: 10px;
-}
+
 .nav .btn{
     margin-top: 55px;
     margin-right: 30px;
@@ -35,9 +33,6 @@ header{
     cursor: pointer;
     border: 2px solid black;
     transition: 0.4s;
-}
-.back:hover{
-    transform: scale(1.1);
 }
 .hero-img img{
     width: 100%;

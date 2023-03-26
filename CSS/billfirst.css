@@ -1,6 +1,6 @@
 body{
     margin:0%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     width: 100%;
@@ -78,7 +78,7 @@ button:hover{
 .hero-img img{
     width: 100%;
     height: 600px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 .text{
     position: absolute;
@@ -107,7 +107,7 @@ button:hover{
     font-size: 26px;
     line-height: 30px;
     margin-bottom: 20px;
-    font-family: Muli,sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .features{
@@ -163,7 +163,7 @@ button:hover{
     font-size: 1.3rem;
     font-weight: 400;
     letter-spacing: inherit;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(64, 60, 60);
     line-height: 1.2; 
 }
@@ -172,7 +172,7 @@ button:hover{
     line-height: 1.2;
     margin-top: 20px;
     margin-bottom: 1rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aqua;
 }
 /* input{

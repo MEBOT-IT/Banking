@@ -1,6 +1,6 @@
 body{
     margin:0%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .table{
     position: absolute;
@@ -84,7 +84,7 @@ body{
 .row{
     transition: 1s;
 }
-.row :hover{
+/* .row :hover{
     background-color: black;
     color: white;
-}
+} */

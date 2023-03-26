@@ -1,6 +1,6 @@
 body{
     margin:0%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     width: 100%;
@@ -35,7 +35,7 @@ button{
     cursor:pointer;
     background-color: #003e7e;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .logout{
     text-decoration: none;
@@ -109,7 +109,6 @@ button:hover{
 }
 
 .mainimg a:hover{
-    transform: scale(1.1);
     text-decoration: underline black;
 }
 
