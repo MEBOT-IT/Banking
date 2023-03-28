@@ -234,7 +234,7 @@ h2,h3{
     border-radius: 20px;
     padding: 30px;
     width: 90%;
-    margin-left: 70px;
+    margin-left: 40px;
     background-color: #23507c;
 }
 
@@ -627,9 +627,9 @@ h2,h3{
     padding: 0 50px;
     height: 100%;
     width: 100%;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; */
   }
   
   .popup-container .social-container {
@@ -656,13 +656,15 @@ h2,h3{
   border:none;
   outline: none;
   padding: 18px 15px;
-  margin: 8px 0;
+  margin:8px 0;
   width:70%;
   }
-  
+
   
   .popup-container button{
+    width: 50%;
     margin-top: 40px;
+    margin-left: 60px;
   border-radius: 20px;
   border: 1px solid #2bbcff;
   background:#2bbcff;

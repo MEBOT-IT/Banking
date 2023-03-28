@@ -144,7 +144,7 @@ marquee{
     color: red;
     font-size: 18px;
 }
-#btn{
+.btn{
     background-color: #00244b;
     color: white;
     padding: 10px;
