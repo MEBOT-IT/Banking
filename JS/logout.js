@@ -4,7 +4,7 @@ logoutBtn.addEventListener("click",() => {
     const confirmlog = confirm("Are you sure you want to log out?")
     if (confirmlog){
         alert("You have been successfully logged out");
-        window.close("#");
+        window.close("home1.html");
         window.open("index.html");
     }
 }

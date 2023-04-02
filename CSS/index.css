@@ -111,18 +111,21 @@ header{
 .security{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-left:70px;
+    margin-left:10px;
+    margin-top: 50px;
     padding-left: 35px;
-    column-gap: 10px;
+    column-gap:100px;
 }
 .list{
     height: 120px;
     width: 200px;
+    color: white;
+    background-color: #003e7e;
     border:3px solid #003e7e;
     border-radius: 5px;
-    text-align: justify;
-    padding: 10px;
-    margin-bottom:5px;
+    text-align:center;
+    padding: 20px;
+    margin-bottom:10px;
     transition: .4s;
 }
 
@@ -133,8 +136,8 @@ header{
     text-align: center;
     font-size: 20px;
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    color: slateblue;
-    font-style: italic;
+    color: white;
+    
 }
 .head1{
     font-size: 15px;
@@ -149,13 +152,15 @@ header{
 .welcome1{
     height: 350px;
     margin-left:18px;
-    margin-top: 18px;
+    margin-top: 40px;
     width: 660px;
     box-shadow: 0 0 3px 3px #003e7e;
 }
 .welimg{
     float: left;
     width: 40%;
+    margin-left: 30px;
+    border-radius: 10px;
 }
 .welcome-con{
     padding-right: 20px;
@@ -558,7 +563,7 @@ h2,h3{
     font-size:small;
     display: flex;
     float: right;
-    margin-left: 1050px;
+    margin-left: 1100px;
 }
 
 
