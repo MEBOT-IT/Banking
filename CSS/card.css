@@ -332,7 +332,7 @@ marquee{
   }
   .popup-container h1 {
   font-weight: bold;
-  margin: 0;
+  margin-right: 200px;
   }
   .popup-container p {
   font-size: 14px;
@@ -390,8 +390,9 @@ marquee{
   background: #eeee;
   border:none;
   outline: none;
-  padding: 18px 15px;
+  padding: 10px ;
   margin: 8px 0;
+  margin-right: 100px;
   width:70%;
   }
   

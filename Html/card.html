@@ -38,57 +38,58 @@
                     
                             <button id="button" onclick="log()" style="border-radius:10px;font-weight: bold;">LOGIN</button>
                     
-                            <!-- The Overlay PopUp for SignUp and LogIn -->
-                                
-                                <div class="popup-container" id = "popup-container">
+                             <!-- The Overlay PopUp for SignUp and LogIn -->
                                     
-                                    <!-- SignUp Form -->
+                             <div class="popup-container" id = "popup-container">
+                                        
+                                <!-- SignUp Form -->
 
-                                    <div class="form-container sign-up-container">
-                                        <form action="#" class="form-signUp" method="POST">
-                                            <h1>Sign Up for NetBanking</h1>
-                                            
-                                            <input type="text" placeholder="Name" id = "name" required>
-                                            <input type="email" placeholder="Email" id="email" required>
-                                            <input type="password" placeholder="Password" id="pass" required>
-                                            <button type="submit" id="register">Sign Up</button>
-                                        </form>
-                                    </div>
+                                <div class="form-container sign-up-container">
+                                    <form action="#" class="form-signUp" method="POST">
+                                        <h1>Sign Up for NetBanking</h1>
+                                        
+                                        <input type="text" placeholder="Name" id = "name" class="sinup" required>
+                                        <input type="email" placeholder="Email" id="email" class="sinup" required>
+                                        <input type="password" placeholder="Password" id="pass" class="sinup" required>
+                                        <input type="checkbox" name="terms" id="" value="Terms&Conditions">I Accept Terms&Conditions
+                                        <button type="submit" id="register" style="cursor: pointer;margin-bottom: 20px;">Sign Up</button>
+                                    </form>
+                                </div>
 
-                                    <!-- SignIn Form -->
+                                <!-- SignIn Form -->
 
-                                    <div class="form-container sign-in-container">
-                                        <form action="index.html" class="form-signin" method="POST">
-                                            <h1>LOGIN</h1>
-                                            <input type="username" placeholder="User Name" id ="username" required>
-                                            <input type="password" placeholder="Password" id="password" required>
-                                            <a href="#" id="forget-link" style="color: black;">Forgot your password?</a>
-                                            <button type="logyn" id="login" value="login" onclick="validate()">Sign In</button>
-                                        </form>
-                                    </div>
+                                <div class="form-container sign-in-container">
+                                    <form action="index.html" class="form-signin" method="POST">
+                                        <h1 style="margin-left: 120px;">LOGIN</h1>
+                                        <input type="username" placeholder="User Name" id ="username" required>
+                                        <input type="password" placeholder="Password" id="password" required>
+                                        <a href="#" id="forget-link" style="color: black;width: 220px;margin-left: 70px;">Forgot your password?</a>
+                                        <button type="logyn" id="login" value="login" onclick="validate()" style="cursor: pointer;">Sign In</button>
+                                    </form>
+                                </div>
 
-                                    <!-- Overlays for the Forms -->
-                                    <div class="overlay-container">
+                                <!-- Overlays for the Forms -->
+                                <div class="overlay-container">
 
-                                        <div class="overlay">
+                                    <div class="overlay">
 
-                                            <div class="overlay-panel overlay-left">
-                                                <h1>Welcome Back!</h1>
-                                                <p>To keep connected please enter your log in details.</p>
-                                                <button class="ghost" id="signIn">Sign In</button>
-                                            </div>
+                                        <div class="overlay-panel overlay-left">
+                                            <h1 style="justify-content: center;margin-right: 110px;">Welcome Back!</h1>
+                                            <p style="margin-right: 110px;">To keep connected please enter your log in details.</p>
+                                            <button class="ghost" id="signIn" style="cursor: pointer;margin-right: 150px;">Sign In</button>
+                                        </div>
 
-                                            <div class="overlay-panel overlay-right">
-                                                <h1>Hello!</h1>
-                                                <p>Enter your details and start your journey</p>
-                                                <button class="ghost" id="signUp">Sign Up</button>
-                                            </div>
-
+                                        <div class="overlay-panel overlay-right">
+                                            <h1 style="margin-left: 300px;">Hello!</h1>
+                                            <p style="margin-left: 100px;">Enter your details and start your journey</p>
+                                            <button class="ghost" id="signUp" style="cursor: pointer;margin-left: 100px;">Sign Up</button>
                                         </div>
 
                                     </div>
+
                                 </div>
-                                <!-- End of the PopUp div. -->
+                            </div>
+                            <!-- End of the PopUp div. -->
 
 
                             <!-- Necessary JavaScript File -->

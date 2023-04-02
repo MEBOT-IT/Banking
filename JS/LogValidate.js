@@ -9,6 +9,7 @@ var password = document.getElementById("password").value;
     }
     else
     {
+        window.location.assign("index.html");
         alert("Invalid Login");
         return;
     }

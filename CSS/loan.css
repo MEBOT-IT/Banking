@@ -134,25 +134,6 @@ border-bottom: 1px solid #333333;
   text-align: center;
 }
 
-.popup-container .social-container {
-margin:20px 0;
-}
-
-.social-container a {
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin: 0 5px;
-height: 40px;
-width: 40px;
-}
-.social-container i{
-font-size: 22px;
-padding: 5px;
-border:1px solid #333333;
-border-radius: 50%;
-}
-
 .form-container input{
 background: #eeee;
 border:none;
@@ -210,11 +191,17 @@ transform: translateX(100%);
 }
 
 .sign-up-container{
-left:0;
-width: 50%;
-z-index: 1;
-opacity: 0;
-}
+  left:0;
+  width: 50%;
+  z-index: 1;
+  opacity: 0;
+  margin-bottom: 30px;
+  }
+
+  .form-container .sinup{
+    padding:10px;
+  }
+  
 
 /*Brings Sign Up over sign in*/
 .popup-container.right-panel-active .sign-up-container{

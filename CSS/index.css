@@ -568,8 +568,8 @@ h2,h3{
    
     display: none;
     position: absolute;
-    top: 115px;
-    left: 2%;
+    top: 120px;
+    left:1px;
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
@@ -598,6 +598,7 @@ h2,h3{
   .popup-container h1 {
   font-weight: bold;
   margin: 0;
+  padding: 10px;
   }
   .popup-container p {
   font-size: 14px;
@@ -624,33 +625,15 @@ h2,h3{
     display: flex;
     flex: 1;
     flex-direction: column;
-    padding: 0 50px;
+    padding:50px;
+    padding-right: 120px;
     height: 100%;
     width: 100%;
     /* justify-content: center;
     align-items: center;
     text-align: center; */
   }
-  
-  .popup-container .social-container {
-  margin:20px 0;
-  }
-  
-  .social-container a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 5px;
-  height: 40px;
-  width: 40px;
-  }
-  .social-container i{
-  font-size: 22px;
-  padding: 5px;
-  border:1px solid #333333;
-  border-radius: 50%;
-  }
-  
+    
   .form-container input{
   background: #eeee;
   border:none;
@@ -714,6 +697,11 @@ h2,h3{
   width: 50%;
   z-index: 1;
   opacity: 0;
+  margin-bottom: 30px;
+  }
+
+  .form-container .sinup{
+    padding:10px;
   }
   
   /*Brings Sign Up over sign in */
