@@ -151,7 +151,7 @@ header{
 }
 .welcome1{
     height: 350px;
-    margin-left:18px;
+    margin-left:10px;
     margin-top: 40px;
     width: 660px;
     box-shadow: 0 0 3px 3px #003e7e;
@@ -159,7 +159,7 @@ header{
 .welimg{
     float: left;
     width: 40%;
-    margin-left: 30px;
+    margin-left: 20px;
     border-radius: 10px;
 }
 .welcome-con{
@@ -563,7 +563,7 @@ h2,h3{
     font-size:small;
     display: flex;
     float: right;
-    margin-left: 1100px;
+    margin-left: 1050px;
 }
 
 
