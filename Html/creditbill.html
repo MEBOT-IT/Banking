@@ -25,15 +25,15 @@
         <div class="form-container">
             <div class="formdiv">
                 <p class="formtitle">Make Payment</p>
-                <form id="payform">
+                <form id="payform" action="/Php/credbill.php" method="post">
                     <div class="form-group">
                         <label for="name">Credit Card Number</label>
-                        <input type="text" id="name" name="name" placeholder="Enter 16 digit credit card number" required>
+                        <input type="text" id="name" name="Card_Number" placeholder="Enter 16 digit credit card number" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="reenter">Re-enter Credit Card Number</label>
-                        <input type="text" id="reenter" name="reenter" placeholder="Reenter card number" required>
+                        <input type="text" id="reenter" name="Re_Card" placeholder="Reenter card number" required>
                     </div>
                     
                     <div class="form-group">
@@ -44,31 +44,31 @@
                     <div class="form-group">
                         <label for="phone">Mobile Number</label>
                         <input type="text" value="+91" width="10px" disabled>
-                        <input type="text" id="phone" name="phone" placeholder="Enter mobile" required>
+                        <input type="text" id="phone" name="Mob_num" placeholder="Enter mobile" required>
                     </div>
 
                     <div class="form-group">
                         <label for="amount">Amount</label>
-                        <input type="text" id="amount" name="amount" placeholder="Enter the payment amount" required>
+                        <input type="text" id="amount" name="Amount" placeholder="Enter the payment amount" required>
                     </div>
 
                     <div class="form-group">
                         <label for="card-number">Debit Card Number</label>
-                        <input type="text" id="card-number" name="card-number" placeholder="Enter your card number" required>
+                        <input type="text" id="card-number" name="Debit_card" placeholder="Enter your card number" required>
                     </div>
 
                     <div class="form-group">
                         <label for="expiry-date">Expiry Date</label>
-                        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                        <input type="text" id="expiry-date" name="Exp_date" placeholder="MM/YY" required>
                     </div>
 
                     <div class="form-group">
                         <label for="cvv">CVV</label>
-                        <input type="text" id="cvv" name="cvv" placeholder="Enter your card's CVV" required>
+                        <input type="text" id="cvv" name="CVV" placeholder="Enter your card's CVV" required>
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" class="paybutton" onclick="validateBill();">Submit Payment</button>
+                        <button type="submit" class="paybutton">Submit Payment</button>
                     </div>
                 </form>
             </div>
