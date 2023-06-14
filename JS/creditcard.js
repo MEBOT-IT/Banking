@@ -32,7 +32,7 @@ function validateBill(){
     }
     else{
         
-        window.location.assign("creditcard.html");
+        window.location.assign("creditcard.php");
         alert('Payment successfull');
     }
 }

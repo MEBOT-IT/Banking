@@ -9,7 +9,7 @@ function validateForm() {
       alert('Please enter a valid card number');
       return false;
     }
-  
+    
     // Check if account number is empty or not a number
     else if (rcardnum !== cardnum) {
       alert('Please enter correct card number');
@@ -29,8 +29,7 @@ function validateForm() {
     }
   
     else{
-        
-        window.location.assign("creditcard.html");
+        window.location.assign("creditcard.php");
         alert('Payment successfull');
     }
   }
