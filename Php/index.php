@@ -17,32 +17,32 @@
         <header>
             <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
             <div class="nav">
-                <a href="/Php/index.php">
-                    <img src="/Images/logo1.png" class="logo">
+                <a href="index.php">
+                    <img src="./Images/logo1.png" class="logo">
                 </a>
                 <div class="item">
                     <ul>
                        <input type="search" id="search" placeholder="Search here...">
                         <button type="submit" id="button"><img src="../Images/icons8-search-50.png" alt="" style="padding-top: 2px;width: 20px;"></button>
                         <li>
-                            <a href="/php/account.php">Accounts</a>
+                            <a href="account.php">Accounts</a>
                         </li>
                         <li>
                             <a href="loan.php" >Loans</a>
                         </li>
                         <li>
-                            <a href="/php/card.php">Cards</a> 
+                            <a href="card.php">Cards</a> 
                         </li>
                         <li>
-                            <a href="/php/insurance.php">Insurance</a> 
+                            <a href="insurance.php">Insurance</a> 
                         </li>
                         <li>
-                            <a href="/php/about.php">About Us</a>
+                            <a href="about.php">About Us</a>
                         </li>
                                       
                         </li>
                         <li>
-                            <a href="/php/contact.php">Contact Us</a>
+                            <a href="contact.php">Contact Us</a>
                             
                         </li>
                         <li>
@@ -55,11 +55,11 @@
                                     
                                     <!-- SignUp Form -->
                                     <div class="form-container sign-up-container">
-                                        <form action="/Php/insert.php" class="form-signUp" method="POST">
+                                        <form action="insert.php" class="form-signUp" method="POST">
                                             <h1>Sign Up for NetBanking</h1>
-                                            <input type="text" name="name" placeholder="Name" id = "name" class="sinup" required>
-                                            <input type="email"name="email" placeholder="Email" id="email" class="sinup" required>
-                                            <input type="password" name="password" placeholder="Password" id="pass" class="sinup" required>
+                                            <input type="text" name="name" placeholder="Name" id = "name" class="signup" required>
+                                            <input type="email"name="email" placeholder="Email" id="email" class="signup" required>
+                                            <input type="password" name="password" placeholder="Password" id="pass" class="signup" required>
                                             <!--<input type="checkbox" name="terms" id="" value="Terms&Conditions">I Accept Terms&Conditions-->
                                             <button type="submit" style="cursor: pointer;margin-bottom: 20px;">Sign Up</button>
                                         </form>
@@ -68,7 +68,7 @@
                                     <!-- SignIn Form -->
 
                                     <div class="form-container sign-in-container">
-                                        <form action="/Php/login.php" class="form-signin" method="POST">
+                                        <form action="login.php" class="form-signin" method="POST">
                                             <h1 style="margin-left: 120px;">LOGIN</h1>
                                             <input type="username" placeholder="User Name" id ="username" name="name" required>
                                             <input type="password" placeholder="Password" id="password" name="password" required>
@@ -95,7 +95,7 @@
 
                                         </div>
 
-pt src="/JS/LogValidate.js"></script>
+pt src="./JS/LogValidate.js"></script>
                     </li>
                     </ul>
                 </div>
@@ -116,7 +116,7 @@ pt src="/JS/LogValidate.js"></script>
         </header>
         <marquee behavior="" direction="left" style="color: red;padding: 5px;font-family: Arial, Helvetica, sans-serif;font-weight: bold;">CrownBank never asks for your Card/PIN/OTP/CVV details on phone, message or email. Please do not click on links received on your email or mobile asking your Bank/Card details.&nbsp;&nbsp;|&nbsp;&nbsp;Your Money is safe with Us</marquee>
         <div class="image">
-            <img src="/Images/log.jpg" alt="login" class="logimg">
+            <img src="./Images/log.jpg" alt="login" class="logimg">
         </div>
         <div class="msg">
             <p class="msg1">
@@ -143,7 +143,7 @@ pt src="/JS/LogValidate.js"></script>
         </div>
         <div class="welcome">
             <div class="welimg">
-                <img src="/Images/welcome.jpg" alt="welcome" class="welcome1">
+                <img src="./Images/welcome.jpg" alt="welcome" class="welcome1">
             </div>
             <div class="welcome-con">
                 <h2 class="title">Bank Profile</h2>
@@ -163,19 +163,19 @@ pt src="/JS/LogValidate.js"></script>
             <h3 class="pro-header">Products to meet your life goals</h3>
             <div class="product">
                 <div class="pro1">
-                    <img src="/Images/card.png" class="pro-img">
+                    <img src="./Images/card.png" class="pro-img">
                     <p class="pro-con">Credit cards</p>
                 </div>
                 <div class="pro1">
-                    <img src="/Images/loan.png" class="pro-img">
+                    <img src="./Images/loan.png" class="pro-img">
                     <p class="pro-con">Home Loan</p>
                 </div>
                 <div class="pro1">
-                    <img src="/Images/fixed.png" class="pro-img">
+                    <img src="./Images/fixed.png" class="pro-img">
                     <p class="pro-con">Fixed Deposit</p>
                 </div>
                 <div class="pro1">
-                    <img src="/Images/low interest.png" class="pro-img">
+                    <img src="./Images/low interest.png" class="pro-img">
                     <p class="pro-con">Low interest rates</p>
                 </div>
             </div>
@@ -275,7 +275,7 @@ pt src="/JS/LogValidate.js"></script>
             <div class="footcontainer">
                 <div class="search">
                     <h2 style="color: white;font-family: Arial, Helvetica, sans-serif;"> Sign up for exclusive offers <br> and inspiration:</h2><br>
-                    <form action="/Php/exclusiveoffer.php" method="post">
+                    <form action="exclusiveoffer.php" method="post">
                         <input type="email" name="email" id="mailform" placeholder="Enter Email Address">
                         <input type="submit" value="SUBMIT" onclick="mailcaptured()">
                     </form>
@@ -283,10 +283,10 @@ pt src="/JS/LogValidate.js"></script>
                 <div class="socialcontainer">
                 <div class="socialmedia">
                     <h3>Follow Us:</h3>
-                    <a href="https://www.youtube.com/"><img src="/Images/youtube.png" alt="" class="icon"></a>
-                    <a href="https://www.instagram.com/"><img src="/Images/instagram.png" alt="" class="icon"></a>
-                    <a href="https://twitter.com/?lang=en"><img src="/Images/twitter.png" alt="" class="icon"></a> 
-                    <a href="https://www.facebook.com/"><img src="/Images/facebook.png" alt="" class="icon"></a> 
+                    <a href="https://www.youtube.com/"><img src="./Images/youtube.png" alt="" class="icon"></a>
+                    <a href="https://www.instagram.com/"><img src="./Images/instagram.png" alt="" class="icon"></a>
+                    <a href="https://twitter.com/?lang=en"><img src="./Images/twitter.png" alt="" class="icon"></a> 
+                    <a href="https://www.facebook.com/"><img src="./Images/facebook.png" alt="" class="icon"></a> 
                 </div>
                 </div>
                 <div class="terms">
