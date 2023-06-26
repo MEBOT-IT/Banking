@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Loan - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/homeloan.css">
     <script src="https://kit.fontawesome.com/022e694e87.js" crossorigin="anonymous"></script>
 </head>
@@ -14,7 +14,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                <img src="/Images/logo1.png" class="logo">
+                <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="main">
                     <div class="dropdown">
@@ -50,14 +50,14 @@
                         </div>
                     </div>
                     <div class="logout">
-                        <a href=""><img src="/Images/logout.png" id="logoutBtn"></a>
+                        <a href=""><img src="../images/logout.png" id="logoutBtn"></a>
                     </div>
                 </div>           
             </div>
         </header>
         <div class="hero">
             <div class="hero-img">
-                <img src="/Images/home.jpg">
+                <img src="../images/home.jpg">
             </div>
             <h2 class="hero-text">Avail Home Loan at Attractive Interest Rates</h2>
         </div>
@@ -97,26 +97,26 @@
             <div class="benefits">
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/percentage.jpg" width="80px" height="80px" style="margin-left: 20px;">
+                        <img src="../images/percentage.jpg" width="80px" height="80px" style="margin-left: 20px;">
                     </div>
                     <p class="ben">Attractive home loan interest rates</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/coinwithhand.png" width="80px" height="80px">
+                        <img src="../images/coinwithhand.png" width="80px" height="80px">
                     </div>
                     <p class="ben">Loan amount up to INR 2cr</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/percentage.jpg" width="80px" height="80px">
+                        <img src="../images/percentage.jpg" width="80px" height="80px">
                     </div>
                     <p class="ben">Available top up the same rates as balance transfer</p>
                 </div>
                 
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/coinwithhand.png" width="80px" height="80px">
+                        <img src="../images/coinwithhand.png" width="80px" height="80px">
                     </div>
                     <p class="ben">loan tenure up to 30years</p>
                 </div>
@@ -154,7 +154,7 @@
                 </ul>
             </div>
             <div class="eimg">
-                <img src="/Images/fullhome.jpg" width="500px" height="100%">
+                <img src="../images/fullhome.jpg" width="500px" height="100%">
             </div>
         </div>
         <div class="faq" id="faq">
@@ -209,22 +209,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

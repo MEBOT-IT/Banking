@@ -1,4 +1,24 @@
-function validateForm() {
+function validateNumber(event) {
+  const input = event.target;
+  const currentValue = input.value;
+  const onlyNumbers = /^\d*$/.test(currentValue);
+
+  if (!onlyNumbers) {
+    input.value = currentValue.replace(/\D/g, '');
+  }
+}
+
+function validateAlphabet(event) {
+  const input = event.target;
+  const currentValue = input.value;
+  const onlyAlphabets = /^[a-zA-Z]*$/.test(currentValue);
+
+  if (!onlyAlphabets) {
+    input.value = currentValue.replace(/[^a-zA-Z]/g, '');
+  }
+}
+
+function validateForm(event) {
     // Get form input values
     var cardnum = document.getElementById('cnum').value;
     var rcardnum = document.getElementById('rcnum').value;
@@ -9,6 +29,7 @@ function validateForm() {
       alert('Please enter a valid card number');
       return false;
     }
+    
     
     // Check if account number is empty or not a number
     else if (rcardnum !== cardnum) {
@@ -27,10 +48,9 @@ function validateForm() {
       alert('Amount must be greater than zero.');
       return false;
     }
-  
-    else{
-        window.location.assign("creditcard.php");
-        alert('Payment successfull');
+    else if(n==1 && c==1){
+      alert('Payment made successfully');
+      window.location.assign("/php/netcreditbill.php");
     }
   }
   

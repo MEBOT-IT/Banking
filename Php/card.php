@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cards - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/css/card.css">
     <link rel="stylesheet" href="/CSS/dark.css">
     <script src="/JS/dark.js" defer></script>
@@ -18,7 +18,7 @@
 
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="item">
                     <ul>
@@ -46,7 +46,7 @@
         </header>
         <div class="hero-image">
             <div class="image">
-                <img src="/images/hero.jpg">
+                <img src="../images/hero.jpg">
             </div>
             <div class="hero-content">
                 <p class="con">"Unlock endless possibilities with our range of credit and debit cards. 
@@ -61,7 +61,7 @@
         </div>
         <div class="card-types">
             <div class="card1">
-                <img src="/images/creditcard.png" width="370px" height="200px">
+                <img src="../images/creditcard.png" width="370px" height="200px">
                 <h2 class="card-name">Credit Cards</h2>
                 <p class="card1-con">
                     Avail amazing discounts and cashback offers with Crown Bank
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="card1">
-                <img src="/images/prepaiddebit.jpg" width="370px" height="200px">
+                <img src="../images/prepaiddebit.jpg" width="370px" height="200px">
                 <h2 class="card-name">Debit cards</h2>
                 <p class="card1-con">
                     Get access to your funds anytime, anywhere!
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="card1">
-                <img src="/images/digi.jpg" width="370px" height="200px">
+                <img src="../images/digi.jpg" width="370px" height="200px">
                 <h2 class="card-name">Digital Payments</h2>
                 <p class="card1-con">
                     Make payments easily with Google Pay 
@@ -101,7 +101,7 @@
         </div>
         <div class="credit" id="creditcard">
             <div class="creimg">
-                <img src="/images/crecard.png">
+                <img src="../images/crecard.png">
             </div>
             <div class="cre-con">
                 <h1>Credit Cards</h1>
@@ -123,12 +123,12 @@
                 </p>
             </div>
             <div class="deimg">
-                <img src="/images/debit.png">
+                <img src="../images/debit.png">
             </div>
         </div>
         <div class="digpay" id="digpay">
             <div class="gimg">
-                <img src="/images/qrcode.jpg">
+                <img src="../images/qrcode.jpg">
             </div>
             <div class="cre-con">
                 <h1>Digital Payment</h1>
@@ -150,12 +150,12 @@
             </div>
             <div class="main">
                 <div class="box">
-                    <img src="/images/mail icon.png" width="80px" height="80px">
+                    <img src="../images/mail icon.png" width="80px" height="80px">
                     <h1>Email </h1>
                     <p>crownbankingofficial@gmail.com</p>
                 </div>
                 <div class="box">
-                    <img src="/images/icon8-location-50.png" width="80px" height="80px">
+                    <img src="../images/icon8-location-50.png" width="80px" height="80px">
                     <h1>Office</h1>
                     <p>NO 833 E.V.R Periyar High Road<br>
                         Arumbakkam,<br>
@@ -163,7 +163,7 @@
                     </p>
                 </div>
                 <div class="box">
-                    <img src="/images/icons8-phone-50.png" width="80px" height="80px">
+                    <img src="../images/icons8-phone-50.png" width="80px" height="80px">
                     <h1>Phone</h1>
                     <p>+91 9944758124</p>
                 </div>
@@ -177,22 +177,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

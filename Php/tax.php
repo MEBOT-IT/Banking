@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E Tax Payment - Pay taxes online</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/tax.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/Images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <h1 class="heading">ONLINE TAX PAYMENTS</h1>
                 <div class="btn">
@@ -25,7 +25,7 @@
         </header>
         <div class="hero">
             <div class="hero-img">
-                <img src="/Images/taxhero.jpg">
+                <img src="../images/taxhero.jpg">
             </div>
             <h2 class="hero-text">Online tax payments are secure and reliable</h2>
         </div>
@@ -67,7 +67,7 @@
                 </ol>
             </div>
             <div class="dirimg">
-                <img src="/Images/taxside.jpg">
+                <img src="../images/taxside.jpg">
             </div>
         </div>
         <div class="direct" id="gst">
@@ -83,7 +83,7 @@
                 </ol>
             </div>
             <div class="dirimg">
-                <img src="/Images/billcard.jpg">
+                <img src="../images/billcard.jpg">
             </div>
         </div>
         <footer>
@@ -94,22 +94,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

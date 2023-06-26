@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/CSS/dark.css">
     <script src="/JS/dark.js" defer></script>
@@ -17,7 +17,7 @@
 
         <div class="nav">
             <a href="/Php/index.php">
-                <img src="/images/logo1.png" class="logo">
+                <img src="../images/logo1.png" class="logo">
             </a>
             <div class="item">
                 <ul>
@@ -43,7 +43,7 @@
             </div>
         </div>
     </header>
-    <!-- <img src="/images/Contact+Us.jpg" width="100%" height="75%"> -->
+    <!-- <img src="../images/Contact+Us.jpg" width="100%" height="75%"> -->
     <div class="parallax">
         <div id="text">We would love to hear from you</div>
     </div>
@@ -74,7 +74,7 @@
             <form action="/Php/contactus.php" method="post">
                 <div class="formbody">
                     <label for="name">Your name<span class="sp1">*</span></label><br><br>
-                    <input class="txt" type="text" id="name" name="name" required><br><br>
+                    <input class="txt" type="text" id="name" name="name" oninput="validateAlphabet(event)" required><br><br>
 
                     <input type="radio" id="customer" name="customer" value="New Customer">
                     <label for="new customer">New Customer</label>
@@ -83,7 +83,7 @@
                     <label for="existing customer">Existing Customer</label><br><br>
 
                     <label for="phno">Phone<span class="sp1">*</span></label><br><br>
-                    <input class="txt" type="text" id="name" name="phoneno" required><br><br>
+                    <input class="txt" type="text" id="name" name="phoneno" pattern="[0-9]{10}" oninput="validateNumber(event)" required><br><br>
                     
                     <label for="email">Email<span class="sp1">*</span></label><br><br>
                     
@@ -121,12 +121,12 @@
         </div>
         <div class="main">
             <div class="box">
-                <img src="/images/mail icon.png" width="80px" height="80px">
+                <img src="../images/mail icon.png" width="80px" height="80px">
                 <h1>Email </h1>
                 <p>crownbankingofficial@gmail.com</p>
             </div>
             <div class="box">
-                <img src="/images/icon8-location-50.png" width="80px" height="80px">
+                <img src="../images/icon8-location-50.png" width="80px" height="80px">
                 <h1>Office</h1>
                 <p>NO 833 E.V.R Periyar High Road<br>
                     Arumbakkam,<br>
@@ -134,7 +134,7 @@
                 </p>
             </div>
             <div class="box">
-                <img src="/images/icons8-phone-50.png" width="80px" height="80px">
+                <img src="../images/icons8-phone-50.png" width="80px" height="80px">
                 <h1>Phone</h1>
                 <p>+91 9944758124</p>
             </div>
@@ -148,22 +148,22 @@
                     <ul>
                         <li>
                             <a class="pic-link" href="https://www.facebook.com/">
-                                <img src="/Images/facebook.png" width="34">
+                                <img src="../images/facebook.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://twitter.com/">
-                                <img src="/Images/twitter.png" width="34">
+                                <img src="../images/twitter.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://www.youtube.com/">
-                                <img src="/Images/youtube.png" width="34">
+                                <img src="../images/youtube.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://www.instagram.com/">
-                                <img src="/Images/instagram.png" width="34">
+                                <img src="../images/instagram.png" width="34">
                             </a>
                         </li>
                         <li>
@@ -195,5 +195,6 @@
         </div>
       </footer>          
     <script src="/JS/CrownBankLogin.js"></script>
+    <script src="/JS/formval.js"></script>
 </body>
 </html>

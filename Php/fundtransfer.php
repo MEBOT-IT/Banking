@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fund Transfer -  Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/fund.css">
 </head>
 <body>
     <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                <img src="/Images/logo1.png" class="logo">
+                <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="main">
                     <div class="dropdown">
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="logout">
-                        <a href=""><img src="/Images/logout.png" id="logoutBtn"></a>
+                        <a href=""><img src="../images/logout.png" id="logoutBtn"></a>
                         <script src="../JS/logout.js"></script>
                     </div>
                 </div>           
@@ -79,7 +79,7 @@
                     <a href="https://www.npci.org.in/what-we-do/imps/product-overview" id="more">Know More</a>
             </div> 
             <div class="impsimg">
-                <img src="/Images/Hand holding phone with digital wallet service and sending money.jpg" alt="">
+                <img src="../images/Hand holding phone with digital wallet service and sending money.jpg" alt="">
             </div>
         </div>
         <div class="neft" style="background-color: #f3f3f3;"  id="neft">
@@ -96,7 +96,7 @@
                     <a href="https://paytm.com/blog/money-transfer/neft/what-is-neft/" id="more">Know More</a>
             </div> 
             <div class="neftimg">
-             <img src="/Images/6617.jpg" alt="">
+             <img src="../images/6617.jpg" alt="">
             </div>
         </div>
         <div class="upi" id="upi">
@@ -111,7 +111,7 @@
              <a href="https://www.npci.org.in/what-we-do/upi/product-overview" id="more">Know More</a>
             </div> 
             <div class="upiimg">
-                <img src="/Images/151914-OUR8OJ-83.jpg" alt="">
+                <img src="../images/151914-OUR8OJ-83.jpg" alt="">
             </div>    
         </div>
         <div class="boxing">
@@ -119,7 +119,7 @@
             <div class="boxin">
                 <div class="box1">
                     <div class="iconpay">
-                        <img src="/Images/icons8-paid-bill-50.png" alt="">
+                        <img src="../images/icons8-paid-bill-50.png" alt="">
                     </div>
                     <p class="heading">Fund Transfer</p><br>
                     <p>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="box2">
                     <div class="iconpay">
-                        <img src="/Images/icons8-bhim-upi-50.png" alt="">
+                        <img src="../images/icons8-bhim-upi-50.png" alt="">
                     </div>
                     <p class="heading">UPI</p>
                     <p>Send or Receive Payments Instantly and Securly</p>
@@ -141,7 +141,7 @@
                 </div>
                 <div class="box3">
                 <div class="iconpay">
-                        <img src="/Images/icons8-tax-50.png" alt="">
+                        <img src="../images/icons8-tax-50.png" alt="">
                 </div> 
                     <p class="heading">Tax Payments</p>
                     <p>Tax pay made very easier withus</p>
@@ -159,22 +159,22 @@
                     <ul>
                         <li>
                             <a class="pic-link" href="https://www.facebook.com/">
-                                <img src="/Images/facebook.png" width="34">
+                                <img src="../images/facebook.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://twitter.com/">
-                                <img src="/Images/twitter.png" width="34">
+                                <img src="../images/twitter.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://www.youtube.com/">
-                                <img src="/Images/youtube.png" width="34">
+                                <img src="../images/youtube.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://www.instagram.com/">
-                                <img src="/Images/instagram.png" width="34">
+                                <img src="../images/instagram.png" width="34">
                             </a>
                         </li>
                         <li>

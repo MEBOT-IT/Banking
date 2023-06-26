@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payments - Pay Credit card bills online</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/credit.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                <img src="/Images/logo1.png" class="logo">
+                <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="main">
                     <div class="dropdown">
@@ -49,14 +49,14 @@
                         </div>
                     </div>
                     <div class="logout">
-                        <a href=""><img src="/Images/logout.png" id="logoutBtn"></a>
+                        <a href=""><img src="../images/logout.png" id="logoutBtn"></a>
                     </div>
                 </div>           
             </div>
         </header>
         <div class="hero">
             <div class="hero-img">
-                <img src="/Images/herocredit.jpg">
+                <img src="../images/herocredit.jpg">
             </div>
             <h2 class="hero-text">Pay your credit card bills online effortlessly and save time with our hassle-free payment options!</h2>
         </div>
@@ -88,25 +88,25 @@
             <div class="benefits">
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/convenience.png" width="80px" height="80px" style="margin-left: 20px;">
+                        <img src="../images/convenience.png" width="80px" height="80px" style="margin-left: 20px;">
                     </div>
                     <p class="ben">Convenience</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/savetime.png" width="80px" height="80px">
+                        <img src="../images/savetime.png" width="80px" height="80px">
                     </div>
                     <p class="ben">Time-saving </p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/costeff.png" width="80px" height="80px">
+                        <img src="../images/costeff.png" width="80px" height="80px">
                     </div>
                     <p class="ben">Cost-effective</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/secure.png" width="80px" height="80px">
+                        <img src="../images/secure.png" width="80px" height="80px">
                     </div>
                     <p class="ben">Secure</p>
                 </div>
@@ -117,7 +117,7 @@
             <div class="services">
                 <div class="service">
                     <div class="service-image">
-                        <img src="/Images/service.jpg" class="serimg">
+                        <img src="../images/service.jpg" class="serimg">
                     </div>
                     <div class="service-content">
                         <h2 class="subtitle">Net Banking or Debit Card Payments</h2>
@@ -151,14 +151,14 @@
                         </p>
                     </div>
                     <div class="service-image">
-                        <img src="/Images/UPI.jpg" class="serimg">
+                        <img src="../images/UPI.jpg" class="serimg">
                     </div>
                 </div>
             </div>
             <div class="services">
                 <div class="service">
                     <div class="service-image">
-                        <img src="/Images/neft.jpg" class="serimg">
+                        <img src="../images/neft.jpg" class="serimg">
                     </div>
                     <div class="service-content">
                         <h2 class="subtitle">IMPS/NEFT Payments</h2>
@@ -198,7 +198,7 @@
                         </p>
                     </div>
                     <div class="service-image">
-                        <img src="/Images/bank.png" class="serimg">
+                        <img src="../images/bank.png" class="serimg">
                     </div>
                 </div>
             </div>
@@ -211,22 +211,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

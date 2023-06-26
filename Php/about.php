@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/about.css">
     <link rel="stylesheet" href="/CSS/dark.css">
     <script src="/JS/dark.js" defer></script>
@@ -17,7 +17,7 @@
             <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/Images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="item">
                     <ul>
@@ -50,9 +50,9 @@
                 var images =[]
                 var time=3000;
                 //images list
-                images[0]="/images/abouthero1.jpg";
-                images[1]="/images/slide11.webp";
-                images[2]="/images/slide5.jpeg";
+                images[0]="../images/abouthero1.jpg";
+                images[1]="../images/slide11.webp";
+                images[2]="../images/slide5.jpeg";
                 //change image
                 function changeImg(){
                     document.slide.src= images[i];
@@ -82,37 +82,37 @@
                 <p class="about-tel">tel:(044) 2343622</p>
             </div>
             <div class="about-image">
-                <img src="/Images/aboutside.jpg" class="abimg">
+                <img src="../images/aboutside.jpg" class="abimg">
             </div>
         </div>
         <div class="grid">
             <div class="one">
                 <a href="#corpo">
-                    <img class="ap" src="/Images/business-profile.png"  alt="Corporate profile" width="50px" height="50px"  ><br>
+                    <img class="ap" src="../images/business-profile.png"  alt="Corporate profile" width="50px" height="50px"  ><br>
                 </a>
                  <p class="link">Corporate profile</p>
             </div>
             <div class="one">
                 <a href="#vision">
-                    <img  class="ap" src="/Images/vision.png" width="50px" height="50px">
+                    <img  class="ap" src="../images/vision.png" width="50px" height="50px">
                 </a>
                 <p class="link">Vision and Values</p>
             </div>
             <div class="one">
                 <a href="#media">
-                    <img  class="ap" src="/Images/media.png" width="50px" height="50px">
+                    <img  class="ap" src="../images/media.png" width="50px" height="50px">
                 </a>
                <p class="link">Media Center</p>
             </div>
             <div class="one">
                 <a href="#award">
-                    <img  class="ap" src="/Images/trophy.png" width="50px" height="50px" >
+                    <img  class="ap" src="../images/trophy.png" width="50px" height="50px" >
                 </a>
                 <p class="link">Awards and Recognition</p>
             </div>
             <div class="one">
                 <a href="#promo">
-                    <img  class="ap" src="/Images/promoters.png" width="50px" height="50px">
+                    <img  class="ap" src="../images/promoters.png" width="50px" height="50px">
                 </a>
                     <p class="link">Promoters</p>
             </div>
@@ -121,22 +121,22 @@
             <h1 class="dir">Board of Directors</h1>
             <div class="directors">
                 <div class="director">
-                    <img src="/Images/sivaranjani.jpeg" class="dirimg">
+                    <img src="../images/sivaranjani.jpeg" class="dirimg">
                     <h3 class="dirname">Sivaranjani</h3>
                     <h5 class="dirdes">Chief Executive Officer</h5>
                 </div>
                 <div class="director">
-                    <img src="/Images/malini.jpeg" class="dirimg">
+                    <img src="../images/malini.jpeg" class="dirimg">
                     <h3 class="dirname">MaliniSree</h3>
                     <h5 class="dirdes">Managing director & Non executive</h5>
                 </div>
                 <div class="director">
-                    <img src="/Images/Pauline.JPG" class="dirimg">
+                    <img src="../images/Pauline.JPG" class="dirimg">
                     <h3 class="dirname">Arockia Pauline</h3>
                     <h5 class="dirdes">Independent director</h5>
                 </div>
                 <div class="director">
-                    <img src="/Images/aravind.jpeg" class="dirimg">
+                    <img src="../images/aravind.jpeg" class="dirimg">
                     <h3 class="dirname">Aravind Prabakar</h3>
                     <h5 class="dirdes">Additional independent director</h5>
                 </div>
@@ -146,22 +146,22 @@
             <h1 class="dir1">Senior Management</h1>
             <div class="directors">
                 <div class="director">
-                    <img src="/Images/aniruth.jpg" class="dirimg">
+                    <img src="../images/aniruth.jpg" class="dirimg">
                     <h3 class="dirname">Aniruth</h3>
                     <h5 class="dirdes">Managing Director</h5>
                 </div>
                 <div class="director">
-                    <img src="/Images/shalini.jpeg" class="dirimg">
+                    <img src="../images/shalini.jpeg" class="dirimg">
                     <h3 class="dirname">Shalini</h3>
                     <h5 class="dirdes">Deputy Managing director</h5>
                 </div>
                 <div class="director">
-                    <img src="/Images/kokila.jpeg" class="dirimg">
+                    <img src="../images/kokila.jpeg" class="dirimg">
                     <h3 class="dirname">Kokila</h3>
                     <h5 class="dirdes">Chief Financial Officer</h5>
                 </div>
                 <div class="director">
-                    <img src="/Images/Jagadesh.jpg" class="dirimg">
+                    <img src="../images/Jagadesh.jpg" class="dirimg">
                     <h3 class="dirname">Jagadesh</h3>
                     <h5 class="dirdes">Non Executive Director</h5>
                 </div>
@@ -171,15 +171,15 @@
             <h1 class="dir">Website Hosted team</h1>
             <div class="directors">
                 <div class="director">
-                    <img src="/Images/Vignesh.png" class="dirimg">
+                    <img src="../images/Vignesh.png" class="dirimg">
                     <h3 class="dirname">Vignesh</h3>
                 </div>
                 <div class="director">
-                    <img src="/Images/Pasupathi.jpg" class="dirimg">
+                    <img src="../images/Pasupathi.jpg" class="dirimg">
                     <h3 class="dirname">Pasupathi</h3>
                 </div>
                 <div class="director">
-                    <img src="/Images/Aparna.jpg" class="dirimg">
+                    <img src="../images/Aparna.jpg" class="dirimg">
                     <h3 class="dirname">Aparna</h3>
                 </div>
             </div>
@@ -187,22 +187,22 @@
         <div class="director-title">
             <div class="directors">
                 <div class="director">
-                    <img src="/Images/aravind.jpeg" class="dirimg">
+                    <img src="../images/aravind.jpeg" class="dirimg">
                     <h3 class="dirname">Aravind</h3>
                 </div>
                 <div class="director">
-                    <img src="/Images/saranya.jpg" class="dirimg">
+                    <img src="../images/saranya.jpg" class="dirimg">
                     <h3 class="dirname">Saranya</h3>
                 </div>
                 <div class="director">
-                    <img src="/Images/Ranjith.jpg" class="dirimg">
+                    <img src="../images/Ranjith.jpg" class="dirimg">
                     <h3 class="dirname">Ranjith</h3>
                 </div>
             </div> 
         </div>
         <div class="corp" id="corpo">
             <div class="corpimg">
-                <img src="/Images/corpprofile.jpg" class="cimg">
+                <img src="../images/corpprofile.jpg" class="cimg">
             </div>
             <div class="corptext">
                 <h1>Corporate Profile</h1>
@@ -231,14 +231,14 @@
                 </ul>
             </div>
             <div class="vimg">
-                <img src="/Images/values.jpg" class="cimg">
+                <img src="../images/values.jpg" class="cimg">
             </div>
         </div>
         <div class="award" id="award">
             <h1 class="title">Awards And Recognition</h1>
             <div class="award1">
-                <img src="/Images/awardandrecog.jpg" width="360px" height="300px">
-                <img src="/Images/award.jpg" width="350px" height="300px">
+                <img src="../images/awardandrecog.jpg" width="360px" height="300px">
+                <img src="../images/award.jpg" width="350px" height="300px">
                 <ul type="circle">
                     <li>Crown Bank wins the Best Online Banking Award in January 2023</li>
                     <li>Crown Bank wins the Best Customer Service Award for offering personalized support, convenient digital tools, and responsive communication channels.</li>
@@ -258,10 +258,10 @@
                 </p>
                 </div>
             </div>
-            <img src="/Images/contact.jpg" width="360px" height="280px"style="margin-left: 80px;">
+            <img src="../images/contact.jpg" width="360px" height="280px"style="margin-left: 80px;">
             <div class="gimg">
                 <a href="gallery.php">
-                    <img src="/Images/office.jpg" width="360px" height="280px" style="margin-left: 80px;">
+                    <img src="../images/office.jpg" width="360px" height="280px" style="margin-left: 80px;">
                 </a>
                 <h3 class="imgtext">Gallery</h3>
             </div>
@@ -281,7 +281,7 @@
                 </p>
             </div>
             <div class="promoimg">
-                <img src="/Images/hand shake.jpg" width="360px" height="280px">
+                <img src="../images/hand shake.jpg" width="360px" height="280px">
             </div>
         </div>
         <div class="contact">
@@ -290,12 +290,12 @@
             </div>
             <div class="main">
                 <div class="box">
-                    <img src="/Images/mail icon.png" width="80px" height="80px">
+                    <img src="../images/mail icon.png" width="80px" height="80px">
                     <h1>Email </h1>
                     <p>crownbankingofficial@gmail.com</p>
                 </div>
                 <div class="box">
-                    <img src="/Images/icon8-location-50.png" width="80px" height="80px">
+                    <img src="../images/icon8-location-50.png" width="80px" height="80px">
                     <h1>Office</h1>
                     <p>NO 833 E.V.R Periyar High Road<br>
                         Arumbakkam,<br>
@@ -303,7 +303,7 @@
                     </p>
                 </div>
                 <div class="box">
-                    <img src="/Images/icons8-phone-50.png" width="80px" height="80px">
+                    <img src="../images/icons8-phone-50.png" width="80px" height="80px">
                     <h1>Phone</h1>
                     <p>+91 9944758124</p>
                 </div>
@@ -317,22 +317,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

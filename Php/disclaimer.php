@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disclaimer</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/privacy.css">
 </head>
 <body>
@@ -13,12 +13,12 @@
         <header >
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/Images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="item">
                     <ul>
                         <input type="search" id="search" placeholder="Search here...">
-                        <button type="submit" id="button"><img src="../Images/icons8-search-50.png" alt="" style="padding-top: 2px;width: 20px;"></button>
+                        <button type="submit" id="button"><img src="..../images/icons8-search-50.png" alt="" style="padding-top: 2px;width: 20px;"></button>
                         <li>
                             <a href="/php/account.php">Accounts</a>
                             
@@ -77,22 +77,22 @@
                     <ul>
                         <li>
                             <a class="pic-link" href="https://www.facebook.com/">
-                                <img src="/Images/facebook.png" width="34">
+                                <img src="../images/facebook.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://twitter.com/">
-                                <img src="/Images/twitter.png" width="34">
+                                <img src="../images/twitter.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://www.youtube.com/">
-                                <img src="/Images/youtube.png" width="34">
+                                <img src="../images/youtube.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://www.instagram.com/">
-                                <img src="/Images/instagram.png" width="34">
+                                <img src="../images/instagram.png" width="34">
                             </a>
                         </li>
                         <li>

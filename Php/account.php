@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accounts - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/css/account.css">
     <link rel="stylesheet" href="/CSS/dark.css">
     <script src="/JS/dark.js" defer></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
 </head>
 <body>
     <div class="container">
@@ -17,7 +17,7 @@
             <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="item">
                     <ul>
@@ -68,25 +68,25 @@
             </div>
             <div class="reason-grid">
                 <div class="image">
-                    <img src="/images/healthcare.png" class="rimg">
+                    <img src="../images/healthcare.png" class="rimg">
                     <p class="imagedes">
                         Healthcare benefits for your safekeeping
                     </p> 
                 </div>
                 <div class="image">
-                    <img src="/images/percenticon.png" class="rimg">
+                    <img src="../images/percenticon.png" class="rimg">
                     <p class="imagedes">
                         Earn 4% interest on your savings account balance
                     </p> 
                 </div>
                 <div class="image">
-                    <img src="/images/group.png" class="rimg">
+                    <img src="../images/group.png" class="rimg">
                     <p class="imagedes">
                         Our current account offers you perfect option based on your needs
                     </p> 
                 </div>
                 <div class="image">
-                    <img src="/images/reloan.png" class="rimg">
+                    <img src="../images/reloan.png" class="rimg">
                     <p class="imagedes">
                         Grow your business globally with our custom designed offerings
                     </p> 
@@ -99,7 +99,7 @@
         <div class="all-account">
             <div class="one">
                 <div class="termimg">
-                    <img src="/images/saveacc.jpg">
+                    <img src="../images/saveacc.jpg">
                     <h2>Savings Account</h2>
                 </div>
                 <div class="terminfo">
@@ -111,7 +111,7 @@
             </div>
             <div class="one">
                 <div class="termimg">
-                    <img src="/images/current1.jpg">
+                    <img src="../images/current1.jpg">
                     <h2>Current Account</h2>
                 </div>
                 <div class="terminfo">
@@ -123,7 +123,7 @@
             </div>
             <div class="one">
                 <div class="termimg">
-                    <img src="/images/termdepo.jpg">
+                    <img src="../images/termdepo.jpg">
                     <h2>Term Deposit</h2>
                 </div>
                 <div class="terminfo">
@@ -137,20 +137,20 @@
         <div class="contact-wrapper">
             <div class="box-wrapper">
                 <div class="pic">
-                    <img src="/images/manoverphone.jpg" class="mimg">
+                    <img src="../images/manoverphone.jpg" class="mimg">
                 </div>
                 <div class="form-wrap">
                     <form action="/Php/callback.php" method="post">
                         <h2 class="form-title">Callback (Our team will call you back)</h2>
                         <div class="form-field">
                             <div class="form-head">
-                                <input type="text" name="fname" class="fname" placeholder="First Name" required>
+                                <input type="text" name="fname" class="fname" placeholder="First Name" oninput="validateAlphabet(event)" required>
                             </div>
                             <div class="form-head">
-                                <input type="text" name="lname" class="lname" placeholder="Last Name" required>
+                                <input type="text" name="lname" class="lname" placeholder="Last Name" oninput="validateAlphabet(event)" required>
                             </div>
                             <div class="form-head">
-                                <input type="text" name="contactnumber" class="conum" placeholder="Contact Number" required>
+                                <input type="text" name="contactnumber" class="conum" placeholder="Contact Number" pattern="[0-9]{10}" oninput="validateNumber(event)" required>
                             </div>
                             <div class="form-head">
                                 <input type="email" name="email" class="mailid" placeholder="Email ID" required>
@@ -170,12 +170,12 @@
             </div>
             <div class="main">
                 <div class="box">
-                    <img src="/images/mail icon.png" width="80px" height="80px">
+                    <img src="../images/mail icon.png" width="80px" height="80px">
                     <h1>Email </h1>
                     <p>crownbankingofficial@gmail.com</p>
                 </div>
                 <div class="box">
-                    <img src="/images/icon8-location-50.png" width="80px" height="80px">
+                    <img src="../images/icon8-location-50.png" width="80px" height="80px">
                     <h1>Office</h1>
                     <p>NO 833 E.V.R Periyar High Road<br>
                         Arumbakkam,<br>
@@ -183,7 +183,7 @@
                     </p>
                 </div>
                 <div class="box">
-                    <img src="/images/icons8-phone-50.png" width="80px" height="80px">
+                    <img src="../images/icons8-phone-50.png" width="80px" height="80px">
                     <h1>Phone</h1>
                     <p>+91 9944758124</p>
                 </div>
@@ -197,22 +197,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>
@@ -246,4 +246,5 @@
     </div>
 </body>
     <script src="/JS/CrownBankLogin.js"></script>
+    <script src="/JS/formval.js"></script>
 </html>

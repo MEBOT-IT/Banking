@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Online Shopping Payment - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/online.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/Images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <h1 class="header">ONLINE SHOPPING</h1>
                 <div class="btn">
@@ -24,7 +24,7 @@
             </div>
         </header>
         <div class="heading">
-            <img src="/Images/shoppingknow.jpg" class="heroimg">
+            <img src="../images/shoppingknow.jpg" class="heroimg">
             <p id="slogan">Shop. Pay. Repeat</p>
             <p id="exp">Get exciting rewards with CROWN Bank for your online shopping and payments</p>
         </div>
@@ -51,7 +51,7 @@
         <div class="flex1" style="margin-top: -50px;">
             <div class="flex-container" style="background-color:rgb(243 237 237); padding: 30px;" >
                 <div class="column column-1">
-                    <center><img src="/Images/debitcard.jpg" width="250px" height="270px"></center>
+                    <center><img src="../images/debitcard.jpg" width="250px" height="270px"></center>
                 </div>
                 <div class="column column-2"> 
                     <p style="color:#003e7e; font-size: medium;"><b>Crown Bank Debit Card</b></p>
@@ -72,7 +72,7 @@
         <div class="flex">
             <div class="flex-container" >
                 <div class="column column-1">
-                    <center><img src="/Images/utility.jpg" width="250px" height="270px"></center>
+                    <center><img src="../images/utility.jpg" width="250px" height="270px"></center>
                 </div>
                 <div class="column column-2"> 
                     <p style="color: #003e7e; font-size: medium;"><b>Net Banking</b></p>
@@ -99,22 +99,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

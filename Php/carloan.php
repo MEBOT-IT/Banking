@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Loan - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/carloan.css">
     <script src="https://kit.fontawesome.com/022e694e87.js" crossorigin="anonymous"></script>
 </head>
@@ -14,7 +14,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                <img src="/Images/logo1.png" class="logo">
+                <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="main">
                     <div class="dropdown">
@@ -50,14 +50,14 @@
                         </div>
                     </div>
                     <div class="logout">
-                        <a href=""><img src="/Images/logout.png" id="logoutBtn"></a>
+                        <a href=""><img src="../images/logout.png" id="logoutBtn"></a>
                     </div>
                 </div>           
             </div>
         </header>
         <div class="hero">
             <div class="hero-img">
-                <img src="/Images/carr.jpg">
+                <img src="../images/carr.jpg">
             </div>
             <h2 class="hero-text">Get the perfect car, and the perfect loan -
                 the way you want it. Now, faster than ever!
@@ -98,19 +98,19 @@
             <div class="benefits">
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/coinwithhand.png" width="80px" height="80px" style="margin-left: 20px;">
+                        <img src="../images/coinwithhand.png" width="80px" height="80px" style="margin-left: 20px;">
                     </div>
                     <p class="ben">No need to use your savings</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/fx.png" width="80px" height="80px">
+                        <img src="../images/fx.png" width="80px" height="80px">
                     </div>
                     <p class="ben">Flexibility to choose the tenure</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/instant.png" width="80px" height="80px">
+                        <img src="../images/instant.png" width="80px" height="80px">
                     </div>
                     <p class="ben">Instant loan disbursal</p>
                 </div>
@@ -132,7 +132,7 @@
                
             </div>
             <div class="eimg">
-                <img src="/Images/girlcar.jpg" width="400px" height="100%">
+                <img src="../images/girlcar.jpg" width="400px" height="100%">
             </div>
         </div>
         <div class="faq" id="faq">
@@ -181,12 +181,12 @@
             </div>
             <div class="main">
                 <div class="box">
-                    <img src="/images/mail icon.png" width="80px" height="80px">
+                    <img src="../images/mail icon.png" width="80px" height="80px">
                     <h1>Email </h1>
                     <p>crownbankingofficial@gmail.com</p>
                 </div>
                 <div class="box">
-                    <img src="/images/icon8-location-50.png" width="80px" height="80px">
+                    <img src="../images/icon8-location-50.png" width="80px" height="80px">
                     <h1>Office</h1>
                     <p>NO 833 E.V.R Periyar High Road<br>
                         Arumbakkam,<br>
@@ -194,7 +194,7 @@
                     </p>
                 </div>
                 <div class="box">
-                    <img src="/images/icons8-phone-50.png" width="80px" height="80px">
+                    <img src="../images/icons8-phone-50.png" width="80px" height="80px">
                     <h1>Phone</h1>
                     <p>+91 9944758124</p>
                 </div>
@@ -208,22 +208,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

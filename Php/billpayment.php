@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bill Payments and Recharge - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/billpayment.css">
 </head>
 <body>
     <header>
         <div class="nav">
             <a href="/Php/index.php">
-            <img src="/Images/logo1.png" class="logo">
+            <img src="../images/logo1.png" class="logo">
             </a>
             <div class="main">
                 <div class="dropdown">
@@ -48,13 +48,13 @@
                     </div>
                 </div>
                 <div class="logout">
-                    <a href=""><img src="/Images/logout.png" id="logoutBtn"></a>
+                    <a href=""><img src="../images/logout.png" id="logoutBtn"></a>
                 </div>
             </div>           
         </div>
     </header>
     <div class="imghead">   
-             <img src="/Images/billhead.jpg" width="100%" height="600px" style="object-fit: cover;">
+             <img src="../images/billhead.jpg" width="100%" height="600px" style="object-fit: cover;">
          
             <h1>Streamline your bill payments</h1>
             <p>Easily make payments with features such as:</p>
@@ -118,15 +118,15 @@
             <table style="word-wrap: normal; ">
                 <tr>
                     <td> 
-                        <center><img src="/Images/reminder.png" width="30px" height="30px"></center>
+                        <center><img src="../images/reminder.png" width="30px" height="30px"></center>
                         <p>Receive advance notifications to keep track of your online payment deadlines</p>
                     </td>
                     <td>
-                        <center><img src="/Images/intimation.png" width="30px" height="30px"></center>
+                        <center><img src="../images/intimation.png" width="30px" height="30px"></center>
                         <p>Receive notifications if any issues occur with your billers</p>
                     </td>
                     <td>
-                        <center><img src="/Images/guaranteed.png" width="30px" height="30px"></center>
+                        <center><img src="../images/guaranteed.png" width="30px" height="30px"></center>
                         <p>Ensure that your bill payments are completed promptly</p>
                     </td>
                    <!-- <td>
@@ -143,7 +143,7 @@
             <div class="billercateg" id="billers" style="background-color: rgb(241, 236, 236);padding: 10px;">
             <center><h1 style="color: #003e7e; font-weight: bold;">Biller-Categories</h1></center>
             <div class="flex-container" style="margin-top: -0.5%;" >
-                <div class="column column-1"> <center><img src="/Images/billcard.jpg" width="250px" height="270px"></center></div>
+                <div class="column column-1"> <center><img src="../images/billcard.jpg" width="250px" height="270px"></center></div>
                 <div class="column column-2"> 
                     
                   
@@ -233,7 +233,7 @@
 
 
         <div class="flex-container" id="pay" style="margin-top: -0.5%;" >
-            <div class="column column-1"> <center><img src="/Images/recharge (2).jpg" width="280px" height="270px"></center></div>
+            <div class="column column-1"> <center><img src="../images/recharge (2).jpg" width="280px" height="270px"></center></div>
             <div class="column column-3"> 
                 
              <h1 style="font-size: x-large; color: rgb(71, 71, 71); margin-top: 50px;">
@@ -327,22 +327,22 @@
                     <ul>
                         <li>
                             <a class="pic-link" href="https://www.facebook.com/">
-                                <img src="/Images/facebook.png" width="34">
+                                <img src="../images/facebook.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://twitter.com/">
-                                <img src="/Images/twitter.png" width="34">
+                                <img src="../images/twitter.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://www.youtube.com/">
-                                <img src="/Images/youtube.png" width="34">
+                                <img src="../images/youtube.png" width="34">
                             </a>
                         </li>
                         <li>
                             <a class="pic-link" href="https://www.instagram.com/">
-                                <img src="/Images/instagram.png" width="34">
+                                <img src="../images/instagram.png" width="34">
                             </a>
                         </li>
                         <li>

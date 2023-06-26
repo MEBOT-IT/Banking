@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/gallery.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/Images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <h1 class="heading">GALLERY</h1>
                 <div class="btn">
@@ -25,39 +25,39 @@
         </header>
         <div class="gallery">
             <div class="img-container">
-                <img src="/Images/logoaboutus.jpeg" class="gallimg">
+                <img src="../images/logoaboutus.jpeg" class="gallimg">
                 <div class="overlap">LOGO</div>
             </div>
             <div class="img-container">
-                <img src="/Images/executive.jpg" class="gallimg1">
+                <img src="../images/executive.jpg" class="gallimg1">
                 <div class="overlap">EXECUTIVE</div>
             </div>
             <div class="img-container">
-                <img src="/Images/houseexterior.jpg" class="gallimg">
+                <img src="../images/houseexterior.jpg" class="gallimg">
                 <div class="overlap">CROWN EXTERIOR</div>
             </div>
             <div class="img-container">
-                <img src="/Images/branch.jpg" class="gallimg2">
+                <img src="../images/branch.jpg" class="gallimg2">
                 <div class="overlap1">BRANCH</div>
             </div>
             <div class="img-container">
-                <img src="/Images/atm.jpg" class="gallimg3">
+                <img src="../images/atm.jpg" class="gallimg3">
                 <div class="overlap">ATM</div>
             </div>
             <div class="img-container">
-                <img src="/Images/boardroom.jpg" class="gallimg">
+                <img src="../images/boardroom.jpg" class="gallimg">
                 <div class="overlap">BOARD ROOM</div>
             </div>
             <div class="img-container">
-                <img src="/Images/cafe.jpg" class="gallimg">
+                <img src="../images/cafe.jpg" class="gallimg">
                 <div class="overlap">CAFETERIA</div>
             </div>
             <div class="img-container">
-                <img src="/Images/lobby.jpg" class="gallimg">
+                <img src="../images/lobby.jpg" class="gallimg">
                 <div class="overlap">CROWN LOBBY</div>
             </div>
             <div class="img-container">
-                <img src="/Images/cafetaria.jpg" class="gallimg">
+                <img src="../images/cafetaria.jpg" class="gallimg">
                 <div class="overlap">CAFETERIA</div>
             </div>
         </div>
@@ -69,22 +69,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crown Bank - Application Form</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/application.css">
     <link rel="stylesheet" href="/CSS/dark.css">
     <script src="/JS/dark.js" defer></script>
@@ -20,7 +20,7 @@
             <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
             <div class="heading">
                 <div class="logo">
-                    <img src="/Images/logoaboutus.jpeg" id="logo">
+                    <img src="../images/logoaboutus.jpeg" id="logo">
                 </div>
                 <div class="head-content">
                     Application Form
@@ -51,7 +51,7 @@
                     <legend>Personal Details</legend>
                     <div class="item">
                         <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="Your name" name="Name" required>
+                        <input type="text" id="name" placeholder="Your name" name="Name" oninput="validateAlphabet(event)" required>
                     </div>
                     <div class="item">
                         <label for="mailid">Email</label>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="item">
                         <label for="phone">Mobile Number</label>
-                        <input type="text" id="phone" name="Mob_num" placeholder="Mobile number registered with aadhar" required>
+                        <input type="text" id="phone" name="Mob_num" placeholder="Mobile number registered with aadhar" pattern="[0-9]{10}" oninput="validateNumber(event)" required>
                     </div>
                     <div class="item">
                         <label for="dob">Date of Birth</label>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="item">
                         <label for="adhar">Aadhar Number</label>
-                        <input type="text" id="adhar" name="aadhar" placeholder="12-digit aadhar number" required>
+                        <input type="text" id="adhar" name="aadhar" placeholder="12-digit aadhar number" pattern="[0-9]{12}" oninput="validateNumber(event)" required>
                     </div>
                     <div class="item">
                         <label for="pan">PAN Number</label>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="item">
                         <label for="nat">Nationality</label>
-                        <input type="text" id="nat" name="nation" placeholder="Nationality" required>
+                        <input type="text" id="nat" name="nation" placeholder="Nationality" oninput="validateAlphabet(event)" required>
                     </div>
                     <div class="gen">
                         <div>Gender</div>
@@ -98,11 +98,11 @@
             <div class="gridbox">
                 <div class="detail">
                     <label>Company Name</label>
-                    <input type="text" id="cname" name="company" placeholder="Working place..." required>
+                    <input type="text" id="cname" name="company" placeholder="Working place..." oninput="validateAlphabet(event)" required>
                 </div>
                 <div class="detail">
                     <label>Salary</label>
-                    <input type="text" id="sal" name="salary" placeholder="Annual salary" required>
+                    <input type="text" id="sal" name="salary" placeholder="Annual salary" oninput="validateNumber(event)" required>
                 </div>
             </div>
         </fieldset>
@@ -126,7 +126,7 @@
         <p class="copy">CopyRights &copy 2023 CrownBank <span class="copy1">|</span> <span>Right Bank Right Now</span> <span class="copy1">|</span> All Rights Reserved </p>
     </div>
     </div>
-
+    <script src="/JS/formval.js"></script>
 </body>
 
 </html>

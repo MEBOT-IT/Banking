@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fixed Deposit</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/fixed.css">
     <script src="https://kit.fontawesome.com/022e694e87.js" crossorigin="anonymous"></script>
 </head>
@@ -14,7 +14,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/Images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <h1 class="heading">FIXED DEPOSIT</h1>
                 <div class="btn">
@@ -26,7 +26,7 @@
         </header>
         <div class="hero">
             <div class="hero-img">
-                <img src="/Images/fdhero.jpg">
+                <img src="../images/fdhero.jpg">
             </div>
             <h2 class="hero-text">Earn higher interest with Fixed Deposits</h2>
         </div>
@@ -84,7 +84,7 @@
                 </ul>
             </div>
             <div class="feaimg">
-                <img src="/Images/manhappyphone.jpg" class="f1img">
+                <img src="../images/manhappyphone.jpg" class="f1img">
             </div>
         </div>
         <div class="benefit">
@@ -92,19 +92,19 @@
             <div class="benefits">
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/saferiskfree.png" width="80px" height="80px" style="margin-left: 20px;">
+                        <img src="../images/saferiskfree.png" width="80px" height="80px" style="margin-left: 20px;">
                     </div>
                     <p class="ben">Encourages the habit of saving for a longer period of time</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/iconizer-percent.svg" width="80px" height="80px">
+                        <img src="../images/iconizer-percent.svg" width="80px" height="80px">
                     </div>
                     <p class="ben">Helps the depositor earns higher interest rates</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/iconizer-rupee.svg" width="80px" height="80px">
+                        <img src="../images/iconizer-rupee.svg" width="80px" height="80px">
                     </div>
                     <p class="ben">Monthly/quarterly interest payout option</p>
                 </div>
@@ -146,7 +146,7 @@
                 </ul>
             </div>
             <div class="eimg">
-                <img src="/Images/fixed.jpg" width="500px" height="100%">
+                <img src="../images/fixed.jpg" width="500px" height="100%">
             </div>
         </div>
         <div class="faq" id="faq">
@@ -200,12 +200,12 @@
             </div>
             <div class="main">
                 <div class="box">
-                    <img src="/images/mail icon.png" width="80px" height="80px">
+                    <img src="../images/mail icon.png" width="80px" height="80px">
                     <h1>Email </h1>
                     <p>crownbankingofficial@gmail.com</p>
                 </div>
                 <div class="box">
-                    <img src="/images/icon8-location-50.png" width="80px" height="80px">
+                    <img src="../images/icon8-location-50.png" width="80px" height="80px">
                     <h1>Office</h1>
                     <p>NO 833 E.V.R Periyar High Road<br>
                         Arumbakkam,<br>
@@ -213,7 +213,7 @@
                     </p>
                 </div>
                 <div class="box">
-                    <img src="/images/icons8-phone-50.png" width="80px" height="80px">
+                    <img src="../images/icons8-phone-50.png" width="80px" height="80px">
                     <h1>Phone</h1>
                     <p>+91 9944758124</p>
                 </div>
@@ -227,22 +227,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

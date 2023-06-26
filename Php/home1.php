@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Accounts</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="/CSS/home1.css">
     
@@ -14,7 +14,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                <img src="/Images/logo1.png" class="logo">
+                <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="main">
                     <div class="dropdown">
@@ -50,18 +50,17 @@
                         </div>
                     </div>
                     <div class="logout">
-                        <a href=""><img src="/Images/logout.png" id="logoutBtn"></a>
+                        <a href=""><img src="../images/logout.png" id="logoutBtn"></a>
                     </div>
                 </div>           
             </div>
         </header>
         <div class="profile">
             <div class="img">
-                <img src="/Images/usericon.png" class="image">
+                <img src="../images/usericon.png" class="image">
             </div> 
             <div class="content">
                 <p><b>Name:</b>Aravind<br><br>
-                    <b>Mobile Number:</b> xxxxxx2479<br><br>
                     <b>Email id:</b> aravind123@gmail.com
                 </p>
             </div>

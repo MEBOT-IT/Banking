@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CROWN BANK</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/index.css">
     <link rel="stylesheet" href="/CSS/dark.css">
     <script src="/JS/dark.js" defer></script>
@@ -17,32 +17,32 @@
         <header>
             <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
             <div class="nav">
-                <a href="index.php">
-                    <img src="./Images/logo1.png" class="logo">
+                <a href="/Php/index.php">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="item">
                     <ul>
                        <input type="search" id="search" placeholder="Search here...">
-                        <button type="submit" id="button"><img src="../Images/icons8-search-50.png" alt="" style="padding-top: 2px;width: 20px;"></button>
+                        <button type="submit" id="button"><img src="..../images/icons8-search-50.png" alt="" style="padding-top: 2px;width: 20px;"></button>
                         <li>
-                            <a href="account.php">Accounts</a>
+                            <a href="/php/account.php">Accounts</a>
                         </li>
                         <li>
                             <a href="loan.php" >Loans</a>
                         </li>
                         <li>
-                            <a href="card.php">Cards</a> 
+                            <a href="/php/card.php">Cards</a> 
                         </li>
                         <li>
-                            <a href="insurance.php">Insurance</a> 
+                            <a href="/php/insurance.php">Insurance</a> 
                         </li>
                         <li>
-                            <a href="about.php">About Us</a>
+                            <a href="/php/about.php">About Us</a>
                         </li>
                                       
                         </li>
                         <li>
-                            <a href="contact.php">Contact Us</a>
+                            <a href="/php/contact.php">Contact Us</a>
                             
                         </li>
                         <li>
@@ -55,11 +55,11 @@
                                     
                                     <!-- SignUp Form -->
                                     <div class="form-container sign-up-container">
-                                        <form action="insert.php" class="form-signUp" method="POST">
+                                        <form action="/Php/insert.php" class="form-signUp" method="POST">
                                             <h1>Sign Up for NetBanking</h1>
-                                            <input type="text" name="name" placeholder="Name" id = "name" class="signup" required>
-                                            <input type="email"name="email" placeholder="Email" id="email" class="signup" required>
-                                            <input type="password" name="password" placeholder="Password" id="pass" class="signup" required>
+                                            <input type="text" name="name" placeholder="Name" id = "name" class="sinup" oninput="validateAlphabet(event)" required>
+                                            <input type="email"name="email" placeholder="Email" id="email" class="sinup" required>
+                                            <input type="password" name="password" placeholder="Password" id="pass" class="sinup" required>
                                             <!--<input type="checkbox" name="terms" id="" value="Terms&Conditions">I Accept Terms&Conditions-->
                                             <button type="submit" style="cursor: pointer;margin-bottom: 20px;">Sign Up</button>
                                         </form>
@@ -68,9 +68,9 @@
                                     <!-- SignIn Form -->
 
                                     <div class="form-container sign-in-container">
-                                        <form action="login.php" class="form-signin" method="POST">
+                                        <form action="/Php/login.php" class="form-signin" method="POST">
                                             <h1 style="margin-left: 120px;">LOGIN</h1>
-                                            <input type="username" placeholder="User Name" id ="username" name="name" required>
+                                            <input type="username" placeholder="User Name" id ="username" name="name" oninput="validateAlphabet(event)" required>
                                             <input type="password" placeholder="Password" id="password" name="password" required>
                                             <button type="logyn" value="login" style="cursor: pointer;margin-right: 100px;">Sign In</button>
                                         </form>
@@ -95,7 +95,7 @@
 
                                         </div>
 
-pt src="./JS/LogValidate.js"></script>
+pt src="/JS/LogValidate.js"></script>
                     </li>
                     </ul>
                 </div>
@@ -116,7 +116,7 @@ pt src="./JS/LogValidate.js"></script>
         </header>
         <marquee behavior="" direction="left" style="color: red;padding: 5px;font-family: Arial, Helvetica, sans-serif;font-weight: bold;">CrownBank never asks for your Card/PIN/OTP/CVV details on phone, message or email. Please do not click on links received on your email or mobile asking your Bank/Card details.&nbsp;&nbsp;|&nbsp;&nbsp;Your Money is safe with Us</marquee>
         <div class="image">
-            <img src="./Images/log.jpg" alt="login" class="logimg">
+            <img src="../images/log.jpg" alt="login" class="logimg">
         </div>
         <div class="msg">
             <p class="msg1">
@@ -143,7 +143,7 @@ pt src="./JS/LogValidate.js"></script>
         </div>
         <div class="welcome">
             <div class="welimg">
-                <img src="./Images/welcome.jpg" alt="welcome" class="welcome1">
+                <img src="../images/welcome.jpg" alt="welcome" class="welcome1">
             </div>
             <div class="welcome-con">
                 <h2 class="title">Bank Profile</h2>
@@ -163,19 +163,19 @@ pt src="./JS/LogValidate.js"></script>
             <h3 class="pro-header">Products to meet your life goals</h3>
             <div class="product">
                 <div class="pro1">
-                    <img src="./Images/card.png" class="pro-img">
+                    <img src="../images/card.png" class="pro-img">
                     <p class="pro-con">Credit cards</p>
                 </div>
                 <div class="pro1">
-                    <img src="./Images/loan.png" class="pro-img">
+                    <img src="../images/loan.png" class="pro-img">
                     <p class="pro-con">Home Loan</p>
                 </div>
                 <div class="pro1">
-                    <img src="./Images/fixed.png" class="pro-img">
+                    <img src="../images/fixed.png" class="pro-img">
                     <p class="pro-con">Fixed Deposit</p>
                 </div>
                 <div class="pro1">
-                    <img src="./Images/low interest.png" class="pro-img">
+                    <img src="../images/low interest.png" class="pro-img">
                     <p class="pro-con">Low interest rates</p>
                 </div>
             </div>
@@ -240,7 +240,7 @@ pt src="./JS/LogValidate.js"></script>
                             <li>Check credit card details</li>
                         </ul>
                     </div>
-                       <div class="sticks"> <img src="/Images/user.png"></div>
+                       <div class="sticks"> <img src="../images/user.png"></div>
                 </div>
                 <div class="serbx2">
                     <div id="serbx2">
@@ -249,7 +249,7 @@ pt src="./JS/LogValidate.js"></script>
                             your favorite shows by recharging your prepaid mobile 
                             and DTH connection on the go and at your own comfort with Crown Bank </p>
                      </div>
-                        <div class="sticks"> <img src="/Images/recharge.jpg"></div>
+                        <div class="sticks"> <img src="../images/recharge.jpg"></div>
                 </div>
             </div>
             <div class="ser2">
@@ -259,7 +259,7 @@ pt src="./JS/LogValidate.js"></script>
                         <p style="color: white;font-weight: 600;">With the convenience of Crown Bank Internet Banking on your mobile, you can pay your bills anytime, from anywhere.
                             Avoid long queues by registering your billers and pay all your utilitybills like mobile,gas etc.. on time.</p>
                     </div>
-                        <div class="paystick"><img src="/Images/bill.png"></div>
+                        <div class="paystick"><img src="../images/bill.png"></div>
                 </div>
                 <div class="serbx4">
                     <div id="serbx4">
@@ -267,7 +267,7 @@ pt src="./JS/LogValidate.js"></script>
                         <p style="color: white;font-weight: 600;"> Crown Bank Credit Card bring to you convenience coupled with absolute safety and unparalleled discounts. In addition, 
                             we have taken a step further to provide you convenience on the go.</p>
                     </div>
-                        <div class="sticks"><img src="/Images/credit.png"></div>
+                        <div class="sticks"><img src="../images/credit.png"></div>
                 </div>
             </div>
         </div>
@@ -275,7 +275,7 @@ pt src="./JS/LogValidate.js"></script>
             <div class="footcontainer">
                 <div class="search">
                     <h2 style="color: white;font-family: Arial, Helvetica, sans-serif;"> Sign up for exclusive offers <br> and inspiration:</h2><br>
-                    <form action="exclusiveoffer.php" method="post">
+                    <form action="/Php/exclusiveoffer.php" method="post">
                         <input type="email" name="email" id="mailform" placeholder="Enter Email Address">
                         <input type="submit" value="SUBMIT" onclick="mailcaptured()">
                     </form>
@@ -283,10 +283,10 @@ pt src="./JS/LogValidate.js"></script>
                 <div class="socialcontainer">
                 <div class="socialmedia">
                     <h3>Follow Us:</h3>
-                    <a href="https://www.youtube.com/"><img src="./Images/youtube.png" alt="" class="icon"></a>
-                    <a href="https://www.instagram.com/"><img src="./Images/instagram.png" alt="" class="icon"></a>
-                    <a href="https://twitter.com/?lang=en"><img src="./Images/twitter.png" alt="" class="icon"></a> 
-                    <a href="https://www.facebook.com/"><img src="./Images/facebook.png" alt="" class="icon"></a> 
+                    <a href="https://www.youtube.com/"><img src="../images/youtube.png" alt="" class="icon"></a>
+                    <a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="" class="icon"></a>
+                    <a href="https://twitter.com/?lang=en"><img src="../images/twitter.png" alt="" class="icon"></a> 
+                    <a href="https://www.facebook.com/"><img src="../images/facebook.png" alt="" class="icon"></a> 
                 </div>
                 </div>
                 <div class="terms">
@@ -311,9 +311,9 @@ pt src="./JS/LogValidate.js"></script>
                 <div class="contactinfo">
                     <div class="contact">
                         <ul>
-                            <li><img src="..//Images/icons8-phone-50.png" alt=""><a href="tel:9944758124">+919944758124</a></li>
-                            <li><img src="..//Images/mail icon.png" alt=""><a href="mailto:crownbankingofficial@gmail.com">crownbankingofficial@gmail.com</a></li>
-                            <li style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><img src="../Images/icon8-location-50.png" alt=""><a href=""></a>No #833, E.V.R. Periyar High Road,<br> Arumbakkam,<br> Chennai – 600 106, Tamilnadu</li>
+                            <li><img src="../../images/icons8-phone-50.png" alt=""><a href="tel:9944758124">+919944758124</a></li>
+                            <li><img src="../../images/mail icon.png" alt=""><a href="mailto:crownbankingofficial@gmail.com">crownbankingofficial@gmail.com</a></li>
+                            <li style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><img src="..../images/icon8-location-50.png" alt=""><a href=""></a>No #833, E.V.R. Periyar High Road,<br> Arumbakkam,<br> Chennai – 600 106, Tamilnadu</li>
                         </ul>
                     </div>
                 </div>
@@ -328,10 +328,11 @@ pt src="./JS/LogValidate.js"></script>
                 </div>
             </div>
            </footer>
-           <img src="/Images/scroll up btn.png" alt="" id="scroll-top-btn">
+           <img src="../images/scroll up btn.png" alt="" id="scroll-top-btn">
     </div>
     <script src="/JS/scroll.js"></script>
     <script src="/JS/CrownBankLogin.js"></script>
     <script src="/JS/index.js"></script>
+    <script src="/JS/formval.js"></script>
 </body>
 </html>

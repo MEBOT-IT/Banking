@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insurance - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/css/ins.css">
     <link rel="stylesheet" href="/CSS/dark.css">
     <script src="/JS/dark.js" defer></script>
@@ -17,7 +17,7 @@
             <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="item">
                     <ul>
@@ -45,7 +45,7 @@
         </header>
         <div class="hero">
             <div class="hero-img">
-                <img src="/Images/inshero.jpg">
+                <img src="../images/inshero.jpg">
             </div>
             <h2 class="hero-text">Protect what matters most with insurance</h2>
         </div>
@@ -68,7 +68,7 @@
         <div class="all-ins">
             <div class="one">
                 <div class="termimg">
-                    <img src="/images/homeins.jpg">
+                    <img src="../images/homeins.jpg">
                     <h2>Home Insurance</h2>
                 </div>
                 <div class="terminfo">
@@ -77,7 +77,7 @@
             </div>
             <div class="one">
                 <div class="termimg">
-                    <img src="/images/carins.jpg">
+                    <img src="../images/carins.jpg">
                     <h2>Car Insurance</h2>
                 </div>
                 <div class="terminfo">
@@ -86,7 +86,7 @@
             </div>
             <div class="one">
                 <div class="termimg">
-                    <img src="/images/healthins.jpg">
+                    <img src="../images/healthins.jpg">
                     <h2>Health Insurance</h2>
                 </div>
                 <div class="terminfo">
@@ -100,12 +100,12 @@
             </div>
             <div class="main">
                 <div class="box">
-                    <img src="/images/mail icon.png" width="80px" height="80px">
+                    <img src="../images/mail icon.png" width="80px" height="80px">
                     <h1>Email </h1>
                     <p>crownbankingofficial@gmail.com</p>
                 </div>
                 <div class="box">
-                    <img src="/images/icon8-location-50.png" width="80px" height="80px">
+                    <img src="../images/icon8-location-50.png" width="80px" height="80px">
                     <h1>Office</h1>
                     <p>NO 833 E.V.R Periyar High Road<br>
                         Arumbakkam,<br>
@@ -113,7 +113,7 @@
                     </p>
                 </div>
                 <div class="box">
-                    <img src="/images/icons8-phone-50.png" width="80px" height="80px">
+                    <img src="../images/icons8-phone-50.png" width="80px" height="80px">
                     <h1>Phone</h1>
                     <p>+91 9944758124</p>
                 </div>
@@ -132,22 +132,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bill Payment - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/billfirst.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                <img src="/Images/logo1.png" class="logo">
+                <img src="../images/logo1.png" class="logo">
                 </a>
                 <div class="main">
                     <div class="dropdown">
@@ -49,14 +49,14 @@
                         </div>
                     </div>
                     <div class="logout">
-                        <a href=""><img src="/Images/logout.png" id="logoutBtn"></a>
+                        <a href=""><img src="../images/logout.png" id="logoutBtn"></a>
                     </div>
                 </div>           
             </div>
         </header>
         <div class="hero">
             <div class="hero-img">
-                <img src="/Images/laptop.jpg">
+                <img src="../images/laptop.jpg">
             </div>
             <h2 class="text">SECURE PAYMENTS MADE EASY</h2>
         </div>
@@ -91,7 +91,7 @@
                 </ul>
             </div>
             <div>
-                <img src="/Images/billpay (2).jpg" width="400px" height="300px">
+                <img src="../images/billpay (2).jpg" width="400px" height="300px">
             </div>
         </div>
         <div class="overall">
@@ -104,7 +104,7 @@
                
                 <div class="boxes">
                 <div class="box credit">
-                    <center><img src="/Images/creditcard.jpg" width="200px" height="200px"></center>
+                    <center><img src="../images/creditcard.jpg" width="200px" height="200px"></center>
                     <h3><CENTER>CROWN BANK CREDIT CARD BILL PAYMENTS</CENTER></h3>
                     <p class="card-text"></p>
                     <hr width="30px" size="3px" color="#003e7e">
@@ -122,7 +122,7 @@
                 </div>
             </div>
                 <div class="box credit">
-                    <center><img src="/Images/utility.jpg" width="200px" height="200px"></center>
+                    <center><img src="../images/utility.jpg" width="200px" height="200px"></center>
                     <h3><CENTER>BILL PAYMENTS AND RECHARGE</CENTER></h3>
                     <p class="card-text"></p>
                     <hr width="30px" size="3px" color="#003e7e">
@@ -143,7 +143,7 @@
                 <div class="boxes">
                 
                 <div class="box credit">
-                    <center><img src="/Images/onlineshopping.jpg" width="200px" height="190px"></center>
+                    <center><img src="../images/onlineshopping.jpg" width="200px" height="190px"></center>
                     <h3><CENTER>Online Shopping and Payments</CENTER></h3>
                     <p class="card-text"></p>
                     <hr width="30px" size="3px" color="#003e7e">
@@ -161,7 +161,7 @@
                 </div>
                 </div>
                 <div class="box credit">
-                    <center><img src="/Images/tax.jpg" width="190px" height="180px"></center>
+                    <center><img src="../images/tax.jpg" width="190px" height="180px"></center>
                     <h3><CENTER>Online TAX Payments</CENTER></h3>
                     <p class="card-text"></p>
                     <hr width="30px" size="3px" color="#003e7e">
@@ -187,22 +187,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

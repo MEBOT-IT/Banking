@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Current Account - Crown Bank</title>
-    <link rel="shortcut icon" type="image/png" href="/Images/FAVICON CROWN.png">
+    <link rel="shortcut icon" type="image/png" href="../images/FAVICON CROWN.png">
     <link rel="stylesheet" href="/CSS/current.css">
     <script src="https://kit.fontawesome.com/022e694e87.js" crossorigin="anonymous"></script>
 </head>
@@ -14,7 +14,7 @@
         <header>
             <div class="nav">
                 <a href="/Php/index.php">
-                    <img src="/Images/logo1.png" class="logo">
+                    <img src="../images/logo1.png" class="logo">
                 </a>
                 <h1 class="heading">CURRENT ACCOUNT</h1>
                 <div class="btn">
@@ -26,7 +26,7 @@
         </header>
         <div class="hero">
             <div class="hero-img">
-                <img src="/Images/herocurrent.jpg">
+                <img src="../images/herocurrent.jpg">
             </div>
             <h2 class="hero-text">Manage your business finances seamlessly with our current account</h2>
         </div>
@@ -60,25 +60,25 @@
             <div class="benefits">
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/mobileb.svg" width="80px" height="80px" style="margin-left: 20px;">
+                        <img src="../images/mobileb.svg" width="80px" height="80px" style="margin-left: 20px;">
                     </div>
                     <p class="ben">Mobile Banking to transact on go</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/docsb.svg" width="80px" height="80px">
+                        <img src="../images/docsb.svg" width="80px" height="80px">
                     </div>
                     <p class="ben">Overdraft against FD</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/iconizer-lowcharge.svg" width="80px" height="80px">
+                        <img src="../images/iconizer-lowcharge.svg" width="80px" height="80px">
                     </div>
                     <p class="ben">Low fee and charge</p>
                 </div>
                 <div class="one">
                     <div class="image">
-                        <img src="/Images/uploadb.svg" width="80px" height="80px">
+                        <img src="../images/uploadb.svg" width="80px" height="80px">
                     </div>
                     <p class="ben">Free bulk upload</p>
                 </div>
@@ -103,7 +103,7 @@
                 </ul>
             </div>
             <div class="eimg">
-                <img src="/Images/curreli.jpg" width="500px" height="100%">
+                <img src="../images/curreli.jpg" width="500px" height="100%">
             </div>
         </div>
         <div class="faq" id="faq">
@@ -159,12 +159,12 @@
             </div>
             <div class="main">
                 <div class="box">
-                    <img src="/images/mail icon.png" width="80px" height="80px">
+                    <img src="../images/mail icon.png" width="80px" height="80px">
                     <h1>Email </h1>
                     <p>crownbankingofficial@gmail.com</p>
                 </div>
                 <div class="box">
-                    <img src="/images/icon8-location-50.png" width="80px" height="80px">
+                    <img src="../images/icon8-location-50.png" width="80px" height="80px">
                     <h1>Office</h1>
                     <p>NO 833 E.V.R Periyar High Road<br>
                         Arumbakkam,<br>
@@ -172,7 +172,7 @@
                     </p>
                 </div>
                 <div class="box">
-                    <img src="/images/icons8-phone-50.png" width="80px" height="80px">
+                    <img src="../images/icons8-phone-50.png" width="80px" height="80px">
                     <h1>Phone</h1>
                     <p>+91 9944758124</p>
                 </div>
@@ -186,22 +186,22 @@
                         <ul>
                             <li>
                                 <a class="pic-link" href="https://www.facebook.com/">
-                                    <img src="/Images/facebook.png" width="34">
+                                    <img src="../images/facebook.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://twitter.com/">
-                                    <img src="/Images/twitter.png" width="34">
+                                    <img src="../images/twitter.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.youtube.com/">
-                                    <img src="/Images/youtube.png" width="34">
+                                    <img src="../images/youtube.png" width="34">
                                 </a>
                             </li>
                             <li>
                                 <a class="pic-link" href="https://www.instagram.com/">
-                                    <img src="/Images/instagram.png" width="34">
+                                    <img src="../images/instagram.png" width="34">
                                 </a>
                             </li>
                             <li>

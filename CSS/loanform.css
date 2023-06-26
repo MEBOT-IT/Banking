@@ -37,7 +37,7 @@ body{
     transform: scale(1.1);
 }
 .background-image {
-	background-image: url("/Images/loanform.jpg");
+	background-image: url("../images/loanform.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
